@@ -1,0 +1,51 @@
+.logo img{
+    width: 6.563em;
+    height: 2.75em;
+    float:left;
+    margin-top:1em;
+    margin-left:1em;
+    cursor: pointer;
+    
+    }
+ a{
+        text-decoration: none;
+
+    }
+
+nav {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+        max-width: 73.125em;
+        height: 6.625em;
+        
+    }
+
+.footerbody {
+        background-color: #454648;
+        padding: 50px 0;
+        margin-right: auto;
+        margin-left: auto;
+      
+    }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6  {
+    text-transform: uppercase;
+    }
+.navitem {
+    
+        text-align: center;
+        text-transform: uppercase;
+        display: inline;
+    } 
+.navLink{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #151515;
+  
+}
