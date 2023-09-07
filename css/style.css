@@ -1,3 +1,15 @@
+body {
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #777777;
+    background-color: white; 
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
 .logo img{
     width: 6.563em;
     height: 2.75em;
@@ -14,12 +26,11 @@
 
 nav {
         display:flex;
-        align-items: center;
-        justify-content: center;
-
         max-width: 73.125em;
         height: 6.625em;
+        align-items: center;
         
+
     }
 
 .footerbody {
@@ -27,6 +38,7 @@ nav {
         padding: 50px 0;
         margin-right: auto;
         margin-left: auto;
+        /* text-align:center; */
       
     }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6  {
@@ -37,7 +49,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6  {
         text-align: center;
         text-transform: uppercase;
         display: inline;
+        
+        
     } 
+.menu {
+    word-spacing: 2em;
+    justify-content: center;
+}
+ .navLink , .icon{
+    font-size: 1.5em;
+  line-height: 1.875em;
+}
 .navLink{
     position: relative;
     display: inline-block;
@@ -48,4 +70,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6  {
     font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: #151515;
   
+}
+.icon{
+  color:  #151515;
+  background: none;
+  border: none;
+  
+} 
+.navIcon{
+    display:inline;
 }
