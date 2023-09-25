@@ -9,16 +9,33 @@ body {
     -webkit-text-size-adjust: none;
     -webkit-font-smoothing: subpixel-antialiased;
 }
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: white;
+}
+.navbar{
+width:90%;
+display: flex;
+justify-content: space-between;
+font-size: 15px;
+}
+.logo, .buscador{
+    width: 15%;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
 
 .logo img{
-    width: 6.563em;
-    height: 2.75em;
-    float:left;
-    margin-top:1em;
-    margin-left:1em;
-    cursor: pointer;
+    width: 4em;
+
     
-    }
+    } 
  a{
         text-decoration: none;
 
