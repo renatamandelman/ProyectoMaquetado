@@ -1,100 +1,198 @@
+img{
+    width:100%;
+    height:auto;
+}
+*{
+    box-sizing: border-box;
+}
 body {
-    text-align: center;
-    font-size: 13px;
-    line-height: 1.6;
-    font-weight: 400;
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #777777;
-    background-color: white; 
-    -webkit-text-size-adjust: none;
-    -webkit-font-smoothing: subpixel-antialiased;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: black;
+  background-color: white;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: subpixel-antialiased;
+  
 }
-header{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 15vh;
-    background-color: white;
+ul,li{
+    list-style-type:none;
 }
-.navbar{
-width:90%;
-display: flex;
-justify-content: space-between;
-font-size: 15px;
+aside{
+    width: 20%;
 }
-.logo, .buscador{
-    width: 15%;
-}
-.menu{
-    width: 70%;
-    display: flex;
-    justify-content: center;
+header {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: white;
+  color: #777777;
+  position:fixed;
+
 }
 
-.logo img{
-    width: 4em;
+.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
 
-    
-    } 
- a{
-        text-decoration: none;
+.logo,
+.buscador {
+  width: 15%;
+}
 
-    }
+.menu {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  width: 4em;
+}
+
+a {
+  text-decoration: none;
+}
 
 nav {
-        display:flex;
-        max-width: 73.125em;
-        height: 6.625em;
-        align-items: center;
-        
-
-    }
-
-.footerbody {
-        background-color: #454648;
-        padding: 50px 0;
-         margin-right: auto;
-        margin-left: auto; 
-        text-align:center;
-     
-      
-    }
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6  {
-    text-transform: uppercase;
-    }
-.navitem {
-    
-        text-align: center;
-        text-transform: uppercase;
-        display: inline;
-        
-        
-    } 
-.menu {
-    word-spacing: 2em;
-    justify-content: center;
+  display: flex;
+  max-width: 73.125em;
+  height: 6.625em;
+  align-items: center;
 }
- .navLink , .icon{
-    font-size: 1.5em;
+
+.banner{
+    background-image: url("../assets/img/imgsillon.jpeg") ;
+    background-size:auto;
+    display:flex;
+   height:80vh;
+}
+.banner div{
+    text-align: left;
+    
+
+}
+.categories{
+    display: flex;
+    background-color:#454648;
+    justify-content: center;
+    align-items: center;
+   padding:10%;
+   flex-direction: column;
+   color:white;
+   size:1.375em;
+
+}
+.categories p{
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.05em;
+}
+.categories div{
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+.categories article{
+   
+    display: flex;
+    border: 1px solid #e1e1e1;
+}
+.trendingProducts{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+}
+.trendingProducts div{
+    display:flex;
+   flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.footerContenido {
+  align-items: center;
+  justify-content: center;
+  background-color: #454648;
+  
+  
+}
+
+.footerColumnas {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+}
+.footerColumnas h4{
+    color:white;
+}
+
+.footerbody div {
+  width: 25%;
+  display:flex;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  text-transform: uppercase;
+}
+
+.navitem {
+  text-align: center;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.menu {
+  word-spacing: 2em;
+  justify-content: center;
+}
+
+.navLink,
+.icon {
+  font-size: 1.5em;
   line-height: 1.875em;
 }
-.navLink{
-    position: relative;
-    display: inline-block;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: .14em;
-    text-transform: uppercase;
-    font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    color: #151515;
-  
+
+.navLink {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #151515;
 }
-.icon{
-  color:  #151515;
+
+.icon {
+  color: #151515;
   background: none;
   border: none;
-  
-} 
-.navIcon{
-    display:inline;
+}
+
+.navIcon {
+  display: inline;
 }
