@@ -26,13 +26,13 @@ aside{
 }
 header {
   display: flex;
- 
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 12vh;
   background-color: white;
   color: #777777;
-  position:fixed;
+  /* position:fixed;
+  top: 0; left: 0; right: 0; */
 
 }
 
@@ -40,22 +40,20 @@ header {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  font-size: 15px;
+  font-size: 16px;
+ 
 }
 
 .logo,
 .buscador {
-  width: 15%;
+  width: 20%;
 }
 
-.menu {
-  width: 70%;
-  display: flex;
-  justify-content: center;
-}
+
+ 
 
 .logo img {
-  width: 4em;
+  width: 3.5em;
 }
 
 a {
@@ -63,17 +61,18 @@ a {
 }
 
 nav {
-  display: flex;
-  max-width: 73.125em;
-  height: 6.625em;
   align-items: center;
-}
+    width: 90%;
+  justify-content: center;
+  display:flex;
+  
+} 
 
 .banner{
     background-image: url("../assets/img/imgsillon.jpeg") ;
     background-size:auto;
     display:flex;
-   height:80vh;
+    height:80vh;
 }
 .banner div{
     text-align: left;
