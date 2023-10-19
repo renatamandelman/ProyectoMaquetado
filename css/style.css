@@ -4,6 +4,7 @@ img{
 }
 *{
     box-sizing: border-box;
+    margin:0;
 }
 body {
   text-align: center;
@@ -28,28 +29,52 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12vh;
+  height: 13vh;
   background-color: white;
   color: #777777;
+ ;
   /* position:fixed;
   top: 0; left: 0; right: 0; */
 
 }
 
 .navbar {
-  width: 90%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+ align-items: center;
+ 
  
 }
+.menu {
+    width: 70%;
+  display:flex;
+  justify-content: center;
+  word-spacing: 3em;
+  
+} 
+.menu ul{
+  width:80%;
 
+}
 .logo,
 .buscador {
   width: 20%;
+
 }
 
+.navLink{
+  color:  #151515;
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
 
+}
  
 
 .logo img {
@@ -60,24 +85,65 @@ a {
   text-decoration: none;
 }
 
-nav {
-  align-items: center;
-    width: 90%;
-  justify-content: center;
-  display:flex;
-  
-} 
+
 
 .banner{
     background-image: url("../assets/img/imgsillon.jpeg") ;
-    background-size:auto;
+    background-size:cover;
+    background-position: 50%;
     display:flex;
-    height:80vh;
+    height:70vh;
 }
 .banner div{
     text-align: left;
-    
+    width:20%;
+  margin-left:8em;
+  
 
+
+
+ 
+    
+}
+.banner h1{
+    font-weight: 300;
+    letter-spacing: normal;
+    font-size: 50px;
+   
+    line-height: 1.375;
+    text-wrap:wrap;
+    height: max-content;
+}
+.banner p{
+text-wrap:wrap;
+margin-bottom:2em;
+}
+.banner a{
+  color: #ffffff;
+  background-color: #2f2f2f;
+  border-color: #2f2f2f;
+  padding: 9px 40px;
+}
+.btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 4px 17px;
+  font-size: 14px;
+  line-height: 2;
+  border: 2px solid;
+  border-radius: 0;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  cursor: pointer;
+  vertical-align: middle;
+  user-select: none;
+  transition: all 250ms ease-in-out;
 }
 .categories{
     display: flex;
@@ -108,14 +174,22 @@ nav {
 }
 .trendingProducts{
     display:flex;
-    flex-direction: column;
-    width:80%;
+    justify-content: center;
+   
+
+    
 }
 .trendingProducts div{
+  width:40%;
     display:flex;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
     justify-content: space-between;
 
+}
+.trendingProducts article{
+  background-color: f5f5f5;
+  border-radius:6px;
+  transition: all .2s ease;
 }
 .footerContenido {
   align-items: center;
@@ -162,31 +236,14 @@ h6,
   text-transform: uppercase;
   display: inline;
 }
-
-.menu {
-  word-spacing: 2em;
-  justify-content: center;
+#active a{
+  color: #92c5d9;
 }
 
-.navLink,
-.icon {
-  font-size: 1.5em;
-  line-height: 1.875em;
-}
 
-.navLink {
-  position: relative;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #151515;
-}
 
 .icon {
+  font-size: 2em;
   color: #151515;
   background: none;
   border: none;
