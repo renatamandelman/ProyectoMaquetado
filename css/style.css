@@ -1,11 +1,13 @@
-img{
-    width:100%;
-    height:auto;
+img {
+  width: 100%;
+  height: auto;
 }
-*{
-    box-sizing: border-box;
-    margin:0;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
+
 body {
   text-align: center;
   font-size: 13px;
@@ -17,14 +19,18 @@ body {
   background-color: white;
   -webkit-text-size-adjust: none;
   -webkit-font-smoothing: subpixel-antialiased;
-  
+
 }
-ul,li{
-    list-style-type:none;
+
+ul,
+li {
+  list-style-type: none;
 }
-aside{
-    width: 20%;
+
+aside {
+  width: 20%;
 }
+
 header {
   display: flex;
   justify-content: center;
@@ -32,7 +38,7 @@ header {
   height: 13vh;
   background-color: white;
   color: #777777;
- ;
+  ;
   /* position:fixed;
   top: 0; left: 0; right: 0; */
 
@@ -42,29 +48,32 @@ header {
   width: 85%;
   display: flex;
   justify-content: space-between;
- align-items: center;
- 
- 
-}
-.menu {
-    width: 70%;
-  display:flex;
-  justify-content: center;
-  word-spacing: 3em;
-  
-} 
-.menu ul{
-  width:80%;
+  align-items: center;
+
 
 }
+
+.menu {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  word-spacing: 3em;
+
+}
+
+.menu ul {
+  width: 80%;
+
+}
+
 .logo,
 .buscador {
   width: 20%;
 
 }
 
-.navLink{
-  color:  #151515;
+.navLink {
+  color: #151515;
   position: relative;
   display: inline-block;
   font-size: 12px;
@@ -75,7 +84,7 @@ header {
     Roboto, "Helvetica Neue", Arial, sans-serif;
 
 }
- 
+
 
 .logo img {
   width: 3.5em;
@@ -87,43 +96,49 @@ a {
 
 
 
-.banner{
-    background-image: url("../assets/img/imgsillon.jpeg") ;
-    background-size:cover;
-    background-position: 50%;
-    display:flex;
-    height:70vh;
+.banner {
+  background-image: url("../assets/img/imgsillon.jpeg");
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  height: 70vh;
+  align-items: center;
 }
-.banner div{
-    text-align: left;
-    width:20%;
-  margin-left:8em;
-  
+
+.banner div {
+  text-align: left;
+  width: 20%;
+  margin-left: 8em;
 
 
 
- 
-    
+
+
+
 }
-.banner h1{
-    font-weight: 300;
-    letter-spacing: normal;
-    font-size: 50px;
-   
-    line-height: 1.375;
-    text-wrap:wrap;
-    height: max-content;
+
+.banner h1 {
+  font-weight: 300;
+  letter-spacing: normal;
+  font-size: 6em;
+
+  line-height: 1.375;
+  text-wrap: wrap;
+  height: max-content;
 }
-.banner p{
-text-wrap:wrap;
-margin-bottom:2em;
+
+.banner p {
+  text-wrap: wrap;
+  margin-bottom: 2em;
 }
-.banner a{
+
+.banner a {
   color: #ffffff;
   background-color: #2f2f2f;
   border-color: #2f2f2f;
   padding: 9px 40px;
 }
+
 .btn {
   position: relative;
   overflow: hidden;
@@ -145,58 +160,102 @@ margin-bottom:2em;
   user-select: none;
   transition: all 250ms ease-in-out;
 }
-.categories{
-    display: flex;
-    background-color:#454648;
-    justify-content: center;
-    align-items: center;
-   padding:10%;
-   flex-direction: column;
-   color:white;
-   size:1.375em;
+
+.categories {
+  background-color: #454648;
+  color: white;
+  display: flex;
+  justify-content: center;
+
 
 }
-.categories p{
-    color: rgba(255, 255, 255, 0.5);
-    letter-spacing: 0.05em;
-}
-.categories div{
-    width: 80%;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: left;
-}
-.categories article{
-   
-    display: flex;
-    border: 1px solid #e1e1e1;
-}
-.trendingProducts{
-    display:flex;
-    justify-content: center;
-   
 
-    
-}
-.trendingProducts div{
-  width:40%;
-    display:flex;
-   flex-wrap: wrap;
-    justify-content: space-between;
+.categoriesDiv {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+  flex-wrap: wrap;
 
 }
-.trendingProducts article{
-  background-color: f5f5f5;
-  border-radius:6px;
+
+.categories p {
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.05em;
+}
+
+.categoriesArticles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+
+.categories article {
+  padding: 4%;
+  border: 1px solid rgb(225, 225, 225);
+  width: 31%;
+  margin-top: 1em;
+  display: inline-flex;
+  text-align: left;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+
+
+
+}
+
+.categoriesArticleDiv {
+  width: 30%;
+  margin-left: 1em;
+
+}
+
+.trendingProducts {
+  justify-content: center;
+  height: 150vh;
+  padding:3em;
+
+}
+
+.trendingProducts div {
+  margin-left: 5em;
+  margin-right: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1em;
+  width: 60%;
+  
+}
+
+.trendingProducts article {
+  background-color: #f5f5f5;
+  border-radius: 6px;
   transition: all .2s ease;
+  padding: 2%;
+  width: 22%;
+  margin-top: 1em;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+ 
 }
+
+.trendingProducts img {
+  width: 70%;
+}
+
+.trendingProducts article div {
+  justify-content: center;
+  margin-top: 1em;
+}
+
 .footerContenido {
   align-items: center;
   justify-content: center;
   background-color: #454648;
-  
-  
+
+
 }
 
 .footerColumnas {
@@ -207,13 +266,14 @@ margin-bottom:2em;
   flex-wrap: nowrap;
 
 }
-.footerColumnas h4{
-    color:white;
+
+.footerColumnas h4 {
+  color: white;
 }
 
 .footerbody div {
   width: 25%;
-  display:flex;
+  display: flex;
 }
 
 h1,
@@ -229,6 +289,13 @@ h5,
 h6,
 .h6 {
   text-transform: uppercase;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 45px !important;
+  letter-spacing: .001em;
+  font-weight: 400;
 }
 
 .navitem {
@@ -236,7 +303,8 @@ h6,
   text-transform: uppercase;
   display: inline;
 }
-#active a{
+
+#active a {
   color: #92c5d9;
 }
 
