@@ -240,7 +240,7 @@ a {
 
 .trendingProducts article div {
   justify-content: center;
-  font-size:;
+  font-size:
 }
 
 .footerContenido {
@@ -332,11 +332,12 @@ justify-content: center;
   width:50%;
 }
 .portfolio img {
+  margin: 1em;
   height: 20%;
   width: 20%;
 }
 .portfolio div {
-  justify-content: space-between;
+  justify-content: center;
   margin-left: 5em;
   margin-right: 5em;
   display: flex;
