@@ -76,7 +76,7 @@ header {
   color: #151515;
   position: relative;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -242,18 +242,20 @@ a {
 .trendingProducts article div {
   justify-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-top: 1em;
 =======
   font-size:
 >>>>>>> 588224b2e3e3fdf5e8162c88824034125363cc5c
+=======
+ 
+>>>>>>> 68b482d55fd25d665159dfb103b0911af3c0837a
 }
 
 .footerContenido {
   align-items: center;
   justify-content: center;
   background-color: #454648;
-
-
 }
 
 .footerColumnas {
