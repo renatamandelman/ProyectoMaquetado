@@ -95,9 +95,7 @@ a {
 }
 
 
-
 .banner {
-  background-image: url("../assets/img/imgsillon.jpeg");
   background-size: cover;
   background-position: 50%;
   display: flex;
@@ -109,12 +107,6 @@ a {
   text-align: left;
   width: 20%;
   margin-left: 8em;
-
-
-
-
-
-
 }
 
 .banner h1 {
@@ -213,6 +205,7 @@ a {
 
 .trendingProducts {
   justify-content: center;
+  display: flex;
   height: 150vh;
   padding:3em;
 
@@ -238,6 +231,7 @@ a {
   margin-top: 1em;
   box-sizing: border-box;
   margin-bottom: 1em;
+
  
 }
 
@@ -319,4 +313,8 @@ h2 {
 
 .navIcon {
   display: inline;
+}
+.bestFortniture{
+  display:flex;
+  
 }
