@@ -241,7 +241,11 @@ a {
 
 .trendingProducts article div {
   justify-content: center;
+<<<<<<< HEAD
   margin-top: 1em;
+=======
+  font-size:
+>>>>>>> 588224b2e3e3fdf5e8162c88824034125363cc5c
 }
 
 .footerContenido {
@@ -318,6 +322,7 @@ h2 {
   display:flex;
   
 }
+<<<<<<< HEAD
 
 .leaveReview {
   color: #151515;
@@ -326,4 +331,35 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   
+=======
+.bestFortniture div{
+  text-align: left;
+  width: 30%;
+}
+.bestFortniture h1{
+  font-weight: 1em;
+  font-size: large;
+}
+.bestFortniture img{
+  width:50%;
+}
+.portfolio img {
+  margin: 1em;
+  height: 20%;
+  width: 20%;
+}
+.portfolio div {
+  justify-content: center;
+  margin-left: 5em;
+  margin-right: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  width: 80%;
+}
+.portfolio {
+  
+  justify-content: center;
+  height: 150vh;
+>>>>>>> 588224b2e3e3fdf5e8162c88824034125363cc5c
 }
