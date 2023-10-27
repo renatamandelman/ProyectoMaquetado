@@ -197,14 +197,15 @@ a {
 
 }
 
-.categoriesArticlesDiv {
-  padding-left: 1em;
-
+.categoriesArticleDiv {
+  width: 30%;
+  margin-left: 1em;
 
 }
 
 .trendingProducts {
   justify-content: center;
+  display: flex;
   height: 150vh;
   padding:3em;
 
@@ -215,8 +216,10 @@ a {
   margin-right: 5em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 1em;
-
+  width: 60%;
+  
 }
 
 .trendingProducts article {
@@ -224,23 +227,21 @@ a {
   border-radius: 6px;
   transition: all .2s ease;
   padding: 2%;
-  width: 20%; 
-  height: 20%;
-  margin: 1em;
+  width: 22%;
+  margin-top: 1em;
   box-sizing: border-box;
-
+  margin-bottom: 1em;
 
  
 }
 
-/* .trendingProducts img {
-  width: 8em;
-  height: 16em;
-} */
+.trendingProducts img {
+  width: 70%;
+}
 
 .trendingProducts article div {
   justify-content: center;
-  font-size:;
+  margin-top: 1em;
 }
 
 .footerContenido {
@@ -313,21 +314,16 @@ h2 {
 .navIcon {
   display: inline;
 }
-.bestFortniture {
-  background-image:linear-gradient(to right, #eceeef, #eef0f0, #f0f2f2, #f2f3f3, #f4f5f5);
-  display: flex;
-  height: 70vh;
-  align-items: center;
-justify-content: center;
+.bestFortniture{
+  display:flex;
+  
 }
-.bestFortniture div{
-  text-align: left;
-  width: 30%;
-}
-.bestFortniture h1{
-  font-weight: 1em;
-  font-size: large;
-}
-.bestFortniture img{
-  width:50%;
+
+.leaveReview {
+  color: #151515;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  
 }
