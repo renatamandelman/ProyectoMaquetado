@@ -35,14 +35,14 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 13.5vh;
+  height: 16vh;
   background-color: white;
   color: #777777;
- position: fixed;
+ /* position: fixed;
     left: 0;
     top: 0;
     right: 0;
-    z-index: 1080;
+    z-index: 1080; */
 
  
   
@@ -54,6 +54,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
 }
 
 .menu {
@@ -61,7 +64,7 @@ header {
   display: flex;
   justify-content: center;
   word-spacing: 3em;
-
+ 
 }
 
 .menu ul {
@@ -73,6 +76,9 @@ header {
 .buscador {
   width: 20%;
 
+}
+.buscador{
+  margin-right:2em;
 }
 
 .navLink {
@@ -90,8 +96,11 @@ header {
 
 
 .logo img {
-  width:45%;
+  width:45.5%;
 
+}
+.logo{
+  margin-top:0.5em;
 }
 
 a {
@@ -103,21 +112,22 @@ a {
   background-size: cover;
   background-position: 50%;
   display: flex;
-  height: 70vh;
+  height: 80vh;
   align-items: center;
+  
 }
 
 .banner div {
   text-align: left;
-  width: 20%;
-  margin-left: 8em;
+  width: 22%;
+  margin-left: 10em;
 }
 
 .banner h1 {
   font-weight: 300;
   letter-spacing: normal;
   font-size: 6em;
-
+  color: #33363d;
   line-height: 1.375;
   text-wrap: wrap;
   height: max-content;
@@ -126,6 +136,9 @@ a {
 .banner p {
   text-wrap: wrap;
   margin-bottom: 2em;
+  font-size: 1.2em;
+  color:#777777;
+  font-weight: 400;
 }
 
 .banner a {
@@ -157,19 +170,25 @@ a {
   transition: all 250ms ease-in-out;
 }
 
+.categories h5{
+  font-size: 1.6em;
+  font-weight: 400;
+}
 .categories {
   background-color: #454648;
   color: white;
   display: flex;
   justify-content: center;
-
-
+  height:100vh;
+  align-items:center;
 }
+
 
 .categoriesDiv {
   display: flex;
   justify-content: center;
-  padding: 10%;
+  padding: 8%;
+  
   flex-wrap: wrap;
 
 }
@@ -180,6 +199,7 @@ a {
 }
 
 .categoriesArticles {
+  margin-top:2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -190,14 +210,12 @@ a {
 .categories article {
   padding: 4%;
   border: 1px solid rgb(225, 225, 225);
-  width: 31%;
+  width: 32%;
   margin-top: 1em;
   display: inline-flex;
   text-align: left;
   box-sizing: border-box;
   margin-bottom: 1em;
-
-
 
 }
 
