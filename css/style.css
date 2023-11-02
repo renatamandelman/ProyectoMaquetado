@@ -341,7 +341,7 @@ h6,
 }
 
 h2 {
-  font-size: 45px !important;
+  font-size: 3em ;
   letter-spacing: .001em;
   font-weight: 400;
 }
@@ -457,4 +457,64 @@ align-items: center;
   margin-top:1em;
   color:#777777;
 font-size:1.2em;
+}
+.bannerAboutUs{
+  position: relative;
+  text-align: center;
+  height: 60vh;
+}
+.imgBannerAboutUs{
+  background-image:url("../assets/img/bannerAboutUs.jpeg") ; 
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+ /* height:45vh; */
+ text-align: center;
+ color:white;
+ transform: translate3d(-50%, 0, 0);
+ left: 50%;
+ min-width: 101%;
+ min-height: 90%;
+ align-items: center;
+ justify-content: center;
+ display:flex;
+ flex-direction: column;
+}
+.imgBannerAboutUs div{
+width:40%;
+}
+.imgBannerAboutUs h2{
+  text-shadow: 3px 9px 16px rgba(0, 0, 0, 0.18);
+  font-size: 3.5em;
+}
+.imgBannerAboutUs h5{
+  font-size:1.6em;
+  text-transform: none;
+  margin-top: 1.5em;
+}
+.linksAboutUs{
+  justify-content:center;
+  display: flex;
+  padding: 15px 0;
+  background: #f9faf9;
+}
+.linksAboutUs ul{
+  justify-content: space-between;
+ 
+
+}
+.linksAboutUs li{
+  
+  display:inline;
+  font-weight: 600;
+  letter-spacing: .13em;
+  font-size: 1em;
+  text-transform: uppercase;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  
+
+}
+.linksAboutUs a{
+  color:#777777
 }
