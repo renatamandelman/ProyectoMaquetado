@@ -974,7 +974,7 @@ height:20% ;
 }
 
 .BillingAdress, .DeliveryAdress {
-  width: 48%; /
+  width: 48%; 
   padding: 10px; 
 }
 
@@ -982,7 +982,9 @@ height:20% ;
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #e1e1e1;
+  width: 70% ;
 }
+
 thead {
   display: table-header-group;
   vertical-align: middle;
@@ -997,9 +999,40 @@ th{
 }
 
 .caja {
-  width: 30% ;
+  width: 50% ;
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #e1e1e1;
 }
+.payment{
+  margin-top: 30px;
+  font-weight: 500;
+   position: relative;
+   width: 40%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+   text-align: left;
+}
+.cart{
+  margin-top: 30px;
+  font-weight: 500;
+   position: relative;
+   width: 60%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+   text-align: left;
+}
 
+.container {
+  display: flex;
+}
+
+.payment,
+.cart {
+  flex: 1;
+  padding: 10px; 
+}
