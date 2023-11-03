@@ -887,14 +887,26 @@ height:20% ;
   }
 
 .BillingAdress{
+  margin-top: 30px;
+   font-weight: 500;
     position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    position: relative;
+    text-align: left;
 }
 .BillingAdressForm {
+  margin-top: 30px;
   border: none;
   border-bottom: 1px solid grey  ;
+  position: relative;
+  text-align: left;
 }
-  
+.BillingAdressInputs{
+  display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
