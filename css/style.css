@@ -933,6 +933,42 @@ height:20% ;
   outline: none; 
 }
 
-.SectionFroms{
-  flex-wrap: nowrap;
+.SectionForms {
+  display: flex;
+  justify-content: space-between; 
 }
+
+.FormCont {
+  display: flex;
+}
+
+.BillingAdress, .DeliveryAdress {
+  width: 48%; /
+  padding: 10px; 
+}
+
+.table{
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #e1e1e1;
+}
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border: 1px solid #e1e1e1;
+}
+
+th{
+  font-size: 18px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.caja {
+  width: 30% ;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #e1e1e1;
+}
+
