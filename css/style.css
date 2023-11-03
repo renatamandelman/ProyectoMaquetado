@@ -736,8 +736,8 @@ background-position: center center;
   margin: 0 auto; 
 
 }
-.postBlog div{
-  flex-wrap: nowrap;
+.postsBlog div{
+  display: flex;
 }
 
 .postsBlog h6 {
