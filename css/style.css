@@ -811,3 +811,53 @@ height:20% ;
  .todoProductSingle{
   display: flex;
  }
+ .linksCheckout{
+  justify-content:center;
+  display: flex;
+  padding: 15px 0;
+  background: #f9faf9;
+}
+.linksCheckout ul{
+  justify-content: space-between;
+ 
+}
+.linksCheckout li{
+  
+  display:inline;
+  font-weight: 600;
+  letter-spacing: .13em;
+  font-size: 1em;
+  text-transform: uppercase;
+
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ .bannerCheckout{
+    position: relative;
+    text-align: center;
+    height: 60vh;
+  }
+  .imgBannerCheckout{
+    background-image:url("../assets/img/bg-about.jpeg") ; 
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+   text-align: center;
+   color:white;
+   transform: translate3d(-50%, 0, 0);
+   left: 50%;
+   min-width: 101%;
+   min-height: 90%;
+   align-items: center;
+   justify-content: center;
+   display:flex;
+   flex-direction: column;
+  }
+  .imgBannerCheckout div{
+  width:40%;
+  }
+  .imgBannerCheckout h2{
+    text-shadow: 3px 9px 16px rgba(0, 0, 0, 0.18);
+    font-size: 3.5em;
+  }
+  
