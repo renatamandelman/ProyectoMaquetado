@@ -890,23 +890,46 @@ height:20% ;
   margin-top: 30px;
    font-weight: 500;
     position: relative;
-    width: 100%;
+    width: 40%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
     position: relative;
     text-align: left;
 }
-.BillingAdressForm {
-  margin-top: 30px;
-  border: none;
-  border-bottom: 1px solid grey  ;
-  position: relative;
-  text-align: left;
+
+.BillingAdressInputs input {
+  border: none; 
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  margin: 5px 0; 
+  width: 100%; 
+  outline: none; 
 }
-.BillingAdressInputs{
-  display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+
+
+.DeliveryAdress{
+
+  margin-top: 30px;
+  font-weight: 500;
+   position: relative;
+   width: 40%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+   text-align: left;
+}
+
+.DeliveryAdressInputs input {
+  border: none; 
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  margin: 5px 0; 
+  width: 100%; 
+  outline: none; 
+}
+
+.SectionFroms{
+  flex-wrap: nowrap;
 }
