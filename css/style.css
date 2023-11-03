@@ -559,6 +559,7 @@ background-position: center center;
   text-transform: uppercase;
   padding: 0px 5px;
 
+<<<<<<< HEAD
   font-family: 'Roboto Condensed', sans-serif;
  }
  .productSingleProduct img{
@@ -636,3 +637,179 @@ background-position: center center;
   font-size: 1.25em;
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+=======
+}
+
+.banner h2{
+  
+  font-size: 47px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin-left: 14em;
+  text-shadow: 3px 9px 16px rgba(0, 0, 0, 0.18);
+  text-transform: uppercase;
+  left: 50%;
+}
+
+.linksBlogPost {
+  justify-content:center;
+  display: flex;
+  padding: 15px 0;
+  background: #f9faf9;
+}
+.linksBlogPost ul {
+  justify-content: space-between;
+}
+.linksBlogPost li {
+  display:inline;
+  font-weight: 600;
+  letter-spacing: .13em;
+  font-size: 1em;
+  text-transform: uppercase;
+
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parrafoBlog {
+  text-align: left;
+  margin: 6em;
+  margin-left: 13em;
+  margin-right: 45em;
+}
+.parrafoBlog a {
+  font-size: 13px;
+  letter-spacing: normal;
+}
+.parrafoBlog h4 {
+  color: #777777;
+}
+.parrafoBlog h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: .025em;
+  text-transform: uppercase;
+  color: #151515;
+  font-size: 36px;
+}
+.parrafoBlog p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.parrafoBlog h2{
+  font-size: 24px;
+  position: relative;
+  padding-top: 40px;
+  font-weight: 400;
+  letter-spacing: .05em;    
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.linksBlogPost2 {
+  display: inline-block;
+  text-align: left;
+  margin-left: 8px;
+}
+.postsBlog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  margin: 0 auto; 
+  max-width: 1200px; 
+}
+
+.postsBlog h6 {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: left;
+  margin: 1em 0; 
+  align-items: center;
+}
+
+.postsBlog article {
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #f9faf9;
+}
+
+.postsBlog article img {
+  width: 100%;
+  height: auto; 
+}
+
+.postsBlog article time,
+.postsBlog article h5,
+.postsBlog article p {
+  margin-top: 10px;
+}
+.postsBlog h5 {
+  font-size: 16px;
+  text-align: left;
+}
+.postsBlog p {
+  font-size: 14px;
+  text-align: left;
+  color: #777777;
+}
+.postsBlog time {
+  font-size: 14px;
+  text-align: left;
+  color: #777777;
+}
+
+.comentariosBlog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 12em;
+}
+
+.comentariosBlog article {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.comentariosBlog article img {
+  width: 100%;
+  height: 100%;
+  margin-right: 3em;
+}
+
+.comentariosBlog article div {
+  display: flex;
+  flex-direction: column;
+}
+
+.comentariosBlog article h5,
+.comentariosBlog article time,
+.comentariosBlog article p {
+  margin: 0;
+  text-align: left;
+}
+
+.comentariosBlog article h5 {
+  margin-bottom: 10px;
+}
+
+.comentariosBlog article time {
+  margin-bottom: 20px;
+}
+.comentariosBlog h6 {
+  font-size: 16px;
+}
+>>>>>>> 593d50b9a9aa1917e16a1f161e979d9dc8012d09
