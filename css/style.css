@@ -571,6 +571,24 @@ background-position: center center;
     margin-bottom: 0;
     color: #151515;
   }
+  .singleProductImg{
+    width:50%;
+    justify-content: left;
+  } 
+  .productSingleProduct {
+  width:50%;
+  
+   }
+   .productsSP img{
+  width:20%;
+  height:20% ;
+   }
+   .whiteClub{
+    width:50%;
+   }
+   .todoProductSingle{
+    display: flex;
+   }
 .price{
   text-align: left;
   font-size: 1.5em;
