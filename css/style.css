@@ -508,8 +508,6 @@ width:40%;
 }
 .linksAboutUs ul{
   justify-content: space-between;
- 
-
 }
 .linksAboutUs li{
   
@@ -919,6 +917,8 @@ input {
 
 .parrafoBlog {
   text-align: left;
+  margin-left: 12em;
+  margin-right: 10em;
 
 }
 .parrafoBlog a {
@@ -967,11 +967,11 @@ input {
 }
 .postsBlog {
   width: 50%;
-  margin: 0 auto; 
+  margin-left: 12em; 
 
 }
-.postBlog div{
-  flex-wrap: nowrap;
+.postsBlog div{
+  display: flex;
 }
 
 .postsBlog h6 {
@@ -979,11 +979,11 @@ input {
   font-size: 16px;
   text-align: left;
   margin: 1em 0; 
-  align-items: center;
+  align-items: left;
 }
 
 .postsBlog article {
-  width: 25%;
+  width: 200%;
   padding: 10px;
   box-sizing: border-box;
   background: #f9faf9;
@@ -1019,6 +1019,7 @@ input {
   flex-direction: column;
   align-items: flex-start;
   margin-left: 12em;
+  margin: 12em;
 }
 
 .comentariosBlog article {
@@ -1053,7 +1054,37 @@ input {
   margin-bottom: 20px;
 }
 .comentariosBlog h6 {
+  margin-top: 15px;
   font-size: 16px;
+}
+.aside {
+  margin-right: 12em;
+}
+.aside img {
+  margin: 1em;
+  margin-top: 12em;
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  background: #f9faf9;
+}
+.aside article h6 { 
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .075em;
+  color: #92c5d9;
+  box-sizing: border-box;
+  background: #f9faf9;
+}
+.aside h6 { 
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .075em;
+  color: #000000;
+}
+.aside p {
+  font-size: 12px;
+  color: #777777;
 }
 .singleProductImg{
   width:50%;
@@ -1122,31 +1153,99 @@ height:20% ;
     text-shadow: 3px 9px 16px rgba(0, 0, 0, 0.18);
     font-size: 3.5em;
   }
-
-.BillingAdress{
+.FormCont form{
+  margin-top:2em;
+}
+.BillingAdress, .DeliveryAdress{
   margin-top: 30px;
    font-weight: 500;
     position: relative;
-    width: 40%;
+    width: 30%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
     position: relative;
     text-align: left;
 }
+.formLabel{
+  position: absolute;
+  font-size: 1.2em;
+  margin-bottom:1em;
+}
 
-.BillingAdressInputs input {
+.BillingAdressInputs input, .DeliveryAdressInputs input{
   border: none; 
   border-bottom: 1px solid gray;
   padding: 5px;
-  margin: 5px 0; 
+  margin: 1em ; 
   width: 100%; 
   outline: none; 
+  border: 1px solid #e1e1e1;
+    border-width: 0 0 1px 0;
 }
 
 
-.DeliveryAdress{
 
+
+
+.SectionForms {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.FormCont {
+  display: flex;
+  margin:5em;
+  
+}
+
+.BillingAdress, .DeliveryAdress {
+  width: 48%; 
+  padding: 10px; 
+
+}
+.tabla{
+  display: flex;
+  justify-content: center;
+  
+}
+.tabla img{
+  width:40%;
+  background: #f5f5f5;
+}
+.table{
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #e1e1e1;
+  width: 70% ;
+ 
+}
+
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+  border: 1px solid #e1e1e1;
+}
+.table thead tr{
+  border: 1px solid #e1e1e1;
+}
+
+th{
+  font-size: 18px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+
+}
+
+.caja {
+  width: 50% ;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #e1e1e1;
+}
+.payment{
   margin-top: 30px;
   font-weight: 500;
    position: relative;
@@ -1157,16 +1256,24 @@ height:20% ;
    position: relative;
    text-align: left;
 }
-
-.DeliveryAdressInputs input {
-  border: none; 
-  border-bottom: 1px solid gray;
-  padding: 5px;
-  margin: 5px 0; 
-  width: 100%; 
-  outline: none; 
+.cart{
+  margin-top: 30px;
+  font-weight: 500;
+   position: relative;
+   width: 60%;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+   text-align: left;
 }
 
-.SectionFroms{
-  flex-wrap: nowrap;
+.container {
+  display: flex;
+}
+
+.payment,
+.cart {
+  flex: 1;
+  padding: 10px; 
 }
