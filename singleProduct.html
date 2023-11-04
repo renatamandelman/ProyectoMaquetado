@@ -57,8 +57,9 @@
     <section class="bannerSingleProduct">
       <div class="imgBannerSingleProduct">
         <h2>Single product</h2>
-        <div>
-          <ul class="home">
+      </div>
+      <div class="home">
+          <ul>
             <li> Home </li>
             <li>
               <iconify-icon icon="maki:arrow"></iconify-icon>
@@ -67,7 +68,7 @@
             <li>
               <iconify-icon icon="maki:arrow"></iconify-icon>
             </li>
-            <li> Single product </li>
+            <li id="sinProd"> Single product </li>
           </ul>
         </div>
     </section>
@@ -76,8 +77,8 @@
       <div class="productSingleProduct">
         <img id="singleProductImg" src="assets/img/single-product-1-530x480.png" />
         <div class="productsSP">
-          <img src="assets/img/single-product-1-530x480.png" />
-          <img src="assets/img/art3.jpeg" />
+          <img src="assets/img/art1.jpeg" />
+          <img src="assets/img/art1.jpeg" />
           <img src="assets/img/art1.jpeg" />
         </div>
       </div>
@@ -109,30 +110,27 @@
           </ul>
           <ul class="spans">
             <li>
-              <span> Categories: </span>
-              <span> Furniture </span>
+              <span class="spanNegro"> Categories: </span>
+              <span class="spanGris"> Furniture </span>
             </li>
             <li>
-              <span> Weight: </span>
-              <span> 1lbs </span>
+              <span class="spanNegro"> Weight: </span>
+              <span class="spanGris"> 1lbs </span>
             </li>
             <li>
-              <span> Dimensions: </span>
-              <span> 60 x 60 x 90 cm </span>
+              <span class="spanNegro"> Dimensions: </span>
+              <span class="spanGris"> 60 x 60 x 90 cm </span>
             </li>
           </ul>
-
+          <div>
           <input type="number" value="1">
-          <button class="cart">
-            <iconify-icon icon="ic:baseline-plus"></iconify-icon>
-          </button>
-          <button>
-            <iconify-icon icon="ic:baseline-minus"></iconify-icon>
-          </button>
-          <a href=""> Add to cart </a>
+          <button class="cart">+</button>
+          <button class="cart">-</button>
+          <button class="addToCart"> Add to cart </button>
         </div>
-        <hr class="hr-gray-100">
-        <p> Share </p>
+        <div class="container">
+        <p id="share"> Share </p>
+        </div>
         <ul>
           <li> Facebook </li>
           <li> Twitter </li>
@@ -143,12 +141,20 @@
       </div>
    
     </section>
+    <div class="container">
+      <a class="review"> REVIEWS </a>
+      <a class="adittional"> ADITTIONAL INFORMATION </a>
+      <a class="delivery"> DELIVERY AND PAYMENT </a>
+    </div>
     <section>
       <div>
         <div class="jDoe">
+          <div class="imageContainer">
           <img src="assets/img/jdoe.jpg">
+          </div>
+        <div class="content">
           <a href="#"> Jane Doe</a>
-          <ul class="iconStars">
+          <ul class="icons">
             <li>
               <iconify-icon icon="ic:outline-star"></iconify-icon>
             </li>
@@ -165,46 +171,48 @@
               <iconify-icon icon="material-symbols:star-half"></iconify-icon>
             </li>
           </ul>
+          <div class="dateContainer">
           <time datetime="2019-30-11">Nov 30, 2019</time>
+         </div>
           <p>Donec nulla mauris, tempor ac velit at, consectetur tempor enim. Donec rutrum faucibus consectetur.
             Vivamus blandit leo a sodales sagittis. Sed nulla lacus, placerat eget urna in, ultricies scelerisque
             nunc..</p>
+          </div>
+          </section>
+          <section>
           <h4 class="leaveReview"> Leave a Review</h4>
           <form>
-            <div>
-              <label for="firstName"> First Name</label>
-              <input type="text" id="firstName" name="firstName">
-            </div>
-            <div>
-              <label for="lastName"> Last Name </label>
-              <input type="text" id="lastName" name="lastName">
-            </div>
-            <div>
-              <label for="email"> E-mail </label>
-              <input type="email" id="email" name="email">
-              <div>
-                <label for="phone"> Phone </label>
-                <input type="number" id="phone" name="phone">
+              <div class="firstName">
+                  <h3>First Name</h3>
+                  <input type="text" id="firstName" name="firstName">
               </div>
               <div>
-                <label class="message"> Message </label>
-                <input type="text" id="message" name="message">
+                  <h3>Last Name</h3>
+                  <input type="text" id="lastName" name="lastName">
               </div>
               <div>
-                <button class="submit"> Submit </button>
+                  <h3>E-mail</h3>
+                  <input type="email" id="email" name="email">
+              </div>
+              <div>
+                  <h3>Phone</h3>
+                  <input type="number" id="phone" name="phone">
+              </div>
+              <div>
+                  <h3>Message</h3>
+                  <input type="text" id="message" name="message">
+              </div>
+              <div>
+                  <button class="submit">Submit</button>
               </div>
           </form>
           <section>
-            <div class="""container"></div>
+            <div class="container">
             <h4> Featured Products </h4>
-            <div></div>
+            <div>
 
         </div>
-        <div>
-          <a class="review"> Reviews </a>
-          <a class="adittional"> Adittional Information </a>
-          <a class="delivery"> Delivery and Payment </a>
-        </div>
+      
         <div>
           <h4> Contacts</h4>
           <ul>
