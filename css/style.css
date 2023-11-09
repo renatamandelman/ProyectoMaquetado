@@ -760,7 +760,7 @@ button.cart:hover {
   display: inline-block;
   margin-right: 10px;
   margin-top: 20px; 
-} 
+} */
 .container {
   text-align: left;
   display: flex; 
@@ -850,7 +850,7 @@ button.cart:hover {
   vertical-align: right;
   text-align: right;
   box-sizing: border-box;
-  color: #777777
+  color: #777777;
   font-size: 15px;
   line-height: 1.6;
   font-weight: 400;
@@ -877,6 +877,7 @@ button.cart:hover {
   box-sizing: border-box;
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+/*
 form {
   width: 300px; 
   margin: 0px 15px 30px; 
@@ -885,7 +886,7 @@ form {
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
-}
+}*/
 
 h3 { 
   font-weight: lighter;
@@ -1328,4 +1329,65 @@ th{
 .cart {
   flex: 1;
   padding: 10px; 
+}
+.aFewWords{
+ height: 105vh;
+display: flex;
+justify-content: center;
+}
+.aFewWordsDiv{
+padding:8em;
+display: flex;
+justify-content: space-between;
+width: 90%;
+
+}
+.textoAFewWords{
+  width:30%;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.textoAFewWords p{
+  color:#777777;
+  font-size: 1.2em;
+}
+.textoAFewWords ul{
+padding:0;
+align-items: center;
+
+}
+.textoAFewWords hr{
+    content: '';
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 4px;
+    border-radius:  6px;
+    background: #d7d7d7;
+    border-color: #d7d7d7;
+    margin-bottom:1em;
+}
+.textoAFewWords li{  
+  display: inline;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 0;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #9b9b9b;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+.textoAFewWords a{
+  color: #ffffff;
+    background-color: #92c5d9;
+    border-color: #92c5d9;
+}
+
+.escritorioAboutUs{
+  max-width: 90%;
+  height: auto;
 }
