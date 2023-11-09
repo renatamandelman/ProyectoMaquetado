@@ -566,7 +566,22 @@ background-position: center center;
   font-family: 'Roboto Condensed', sans-serif;
   margin-top: 10px;
  }
- .home li #sinProd {
+ .home #spHome {
+  display:inline;
+  font-weight: 600;
+  letter-spacing: .13em;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 0px 5px 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 10px;
+ }
+ .home #spShop {
+  color: #777777;
+  font-weight: bold;
+   margin-top: 10px;
+ }
+ .home #sinProd {
   color: #151515;
   font-weight: bold;
    margin-top: 10px;
@@ -733,16 +748,15 @@ button.cart:hover {
   display: table; 
   
 }
-/* poner clase */
-ul {
+
+.socialMedia ul {
   list-style: none;
   padding: 0;
   display: inline-block;
   margin-top: 20px; 
   font-weight: bold;
 }
-
-ul li {
+.socialMedia li {
   display: inline-block;
   margin-right: 10px;
   margin-top: 20px; 
