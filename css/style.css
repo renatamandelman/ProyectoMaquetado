@@ -1380,3 +1380,22 @@ align-items: center;
   max-width: 90%;
   height: auto;
 }
+.stepper-arrow{
+text-align: center;
+font-weight: 400;
+font-family: "Material Design Icons";
+cursor: pointer;
+color: #151515;
+transition: .3s all ease;
+margin-top: 0;
+top: auto;
+right: 0;
+border-radius: 6px;
+background: #ebebeb;
+width: 32px;
+height: 32px;
+font-size: 24px;
+line-height: 32px;
+left: auto;
+bottom: 0;
+}
