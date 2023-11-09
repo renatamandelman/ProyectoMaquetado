@@ -563,28 +563,21 @@ background-position: center center;
   font-size: 1em;
   text-transform: uppercase;
   padding: 0px 5px 17px;
-  font-family: 'Roboto Condensed', sans-serif;
-  margin-top: 10px;
+  font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin-top: 30px;
+  box-sizing: border-box;
  }
  .home #spHome {
-  display:inline;
-  font-weight: 600;
-  letter-spacing: .13em;
-  font-size: 1em;
-  text-transform: uppercase;
-  padding: 0px 5px 17px;
-  font-family: 'Roboto Condensed', sans-serif;
-  margin-top: 10px;
+  color: #777777;
+  font-weight: bold;
  }
  .home #spShop {
   color: #777777;
   font-weight: bold;
-   margin-top: 10px;
- }
+  }
  .home #sinProd {
   color: #151515;
   font-weight: bold;
-   margin-top: 10px;
  }
 
   .singleProductImg{
@@ -593,7 +586,7 @@ background-position: center center;
   } 
   .productSingleProduct {
   width:50%;
-  
+  box-sizing: border-box;
    }
    .productsSP img{
   justify-content: space-between;
@@ -660,12 +653,8 @@ background-position: center center;
 .spans {
   list-style: none;
   padding: 0;
-}
-
-.spanNegro, .spanGris {
   display: inline;
   text-align: left;
-  letter-spacing: .025em;
   box-sizing: border-box;
 }
 
