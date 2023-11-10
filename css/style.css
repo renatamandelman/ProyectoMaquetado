@@ -1643,15 +1643,19 @@ justify-content: center;
 }
 .articlesGridBlog{
   display:flex;
-  flex-wrap: wrap;
-  justify-content:space-evenly;
-  margin:5em;
   height: 195vh;
 }
+.articlesGridBlog{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  width:80%;
+}
 .articlesGridBlog article{
-  width:30%;
+  width:32%;
   background: #f9faf9;
   margin-bottom:1em;
+  
 }
 .articlesGridBlog div{
   text-align: left;
