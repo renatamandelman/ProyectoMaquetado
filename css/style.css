@@ -1296,6 +1296,8 @@ height:20% ;
   }
 .FormCont form{
   margin-top:2em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 .BillingAdress, .DeliveryAdress{
   margin-top: 30px;
@@ -1324,6 +1326,7 @@ height:20% ;
   border: 1px solid #e1e1e1;
     border-width: 0 0 1px 0;
 }
+
 .tableCheckOut{
   width: 100%;
   max-width: 100%;
