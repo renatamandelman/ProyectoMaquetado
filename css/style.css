@@ -640,15 +640,17 @@ background-position: center center;
   line-height: 1px;
   
 }
-.infoWhiteClub p{
+ p .infoWhiteClub{
   box-sizing: border-box;
   display: block;
-  font-size: 1.1em;
   margin: 0;
   margin-top: 30px;
   text-align: left;
   color: #151515;
- font-weight: 300;
+  font-size: 15px;
+ font-weight: 400;
+  text-align: left;
+  line-height: 1.6;
 }
 .spans {
   list-style: none;
@@ -672,7 +674,9 @@ background-position: center center;
   border: none; 
   margin: 10px 0; 
 }
-
+.display:flex {
+  display= flex;
+}
 input[type="number"] {
   align-items: left;
   padding: 17px 10px;
@@ -688,26 +692,39 @@ input[type="number"] {
   border: 1px solid #e1e1e1;
   appearance: none;
 }
-button.cart {
+.masMenos {
+  display: flex; 
+  flex-wrap:wrap;
+  margin; 0px 5px;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px
+}
+.stepper-arrow-down {
   text-align: center;
-  align-items: center; 
-  background-color: #ebebeb;
-  color: black; 
-  border: none; 
-  padding: 10px 15px; 
-  margin-right: 10px; 
+  font-weight: 400;
+  font-family: "Material Design Icons";
+  cursor: pointer;
+  color: #151515;
+  transition: .3s all ease;
   margin-top: 0;
+  top: auto;
+  right: 0;
+  border-radius: 6px;
+  background: #ebebeb;
   width: 32px;
   height: 32px;
   font-size: 24px;
   line-height: 32px;
+  left: auto;
+  bottom: 0;
 }
-button.cart:hover {
+.stepper-arrow-down:hover {
   color: #007bff;
 }
 .addToCart {
   background-color: #e9da5d;
-  border-color: #e9da5d;
+  border: none;
   text-decoration: underline;
   font-size: 14px;
   line-height: 2;
@@ -723,10 +740,11 @@ button.cart:hover {
   text-align: center;
   vertical-align: middle;
   min-width: 176px;
+  margin-left: 15px;
 }
 .addToCart:hover {
-  background-color:#007bff
-  /* border: none; */
+  background-color:#007bff;
+  border: none;
 }
 
 .hr-gray-100 {
@@ -839,7 +857,7 @@ button.cart:hover {
   vertical-align: right;
   text-align: right;
   box-sizing: border-box;
-  color: #777777;
+  color: #777777;0
   font-size: 15px;
   line-height: 1.6;
   font-weight: 400;
@@ -868,45 +886,63 @@ button.cart:hover {
 }
 
 .formulario form {
-  width: 300px; 
-  margin: 0px 15px 30px; 
-  margin-bottom: 30px;
-  margin-right: -15px;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
+  margin-top: 2em;
 }
 
-h3 { 
-  font-weight: lighter;
-  margin-top: 10px; 
-  text-transform: none;
-  align-items: left;
-  font-size: 15px;
+.firstName h3{ 
+  margin-top: 30px;
+  font-weight: 500;
+  position: relative;
+  width: 30%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative
+  text-align: left;
+}
+.lastName h3{ 
+  margin-top: 30px;
+  font-weight: 500;
+  position: relative;
+  width: 30%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative
+  text-align: right;
 }
 input {
   width: 100%; 
   margin-bottom: 10px; 
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  margin: 1em;
+  width: 100%;
+  outline: none;
+  border: 1px solid #e1e1e1;
+  border-width: 0 0 1px 0;
 }
 .submit {
-  padding: 14px 45px;
-  font-size: 14px;
-  line-height: 2;
-  color: #151515;
   background-color: #e9da5d;
-  border-color: #e9da5d;
-  text-transform: uppercase;
-  text-align: center;
-  vertical-align: middle;
+  color: #151515;
+  font-size: 14px;
   font-weight: 400;
-  margin: 60px 0px 0px;
-  box-sizing: border-box;
-  border-radius: 0;
+  padding: 14px 45px;
+  line-height: 2;
+  border: none;
+  margin-top: 60px;
   width: auto;
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
   letter-spacing: 0.1em;
+  text-align: center;
+  vertical-align: middle;
 }
-.featuredProducts h4 {
+.submit:hover {
+  color: #007bff;
+}
+.featured h4 {
   font-size: 20px;
   letter-spacing: 0.025em;
   font-weight: 600;
@@ -919,7 +955,7 @@ input {
   box-sizing: border-box;
   text-align: center;
 }
-.contactos{
+.{
   
 }
 
