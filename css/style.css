@@ -1211,7 +1211,6 @@ input {
   background-color: transparent;
   background-image: none;
   border-radius: 0;
-  -webkit-appearance: none;
   transition: .3s ease-in-out;
   border: 1px solid #e1e1e1;
   border-width: 0 0 1px 0;
