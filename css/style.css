@@ -763,11 +763,10 @@ input[type="number"] {
   margin-right: 10px;
   margin-top: 20px; 
 } 
-.container {
+.containerShop {
   text-align: left;
   display: flex; 
   align-items: center; 
-  vertical-align: middle;
   text-transform: uppercase;
   padding: 10px 20px;
   font-size: 14px;
@@ -779,7 +778,7 @@ input[type="number"] {
   word-spacing: .03em;
   margin-left: 30px;
     margin-right: 30px;
-    justify-content: flex-start;
+    
 }
 
 
@@ -1296,9 +1295,8 @@ height:20% ;
   }
 .FormCont form{
   margin-top:2em;
-  margin-left: 2em;
-  margin-right: 2em;
 }
+
 .BillingAdress, .DeliveryAdress{
   margin-top: 30px;
    font-weight: 500;
@@ -1344,7 +1342,8 @@ height:20% ;
 
 .FormCont {
   display: flex;
-  margin:5em;
+  margin-left: 5em;
+  margin-right: 5em;
   
 }
 
@@ -1394,43 +1393,42 @@ th{
 }
 
 .caja {
-  width: 50% ;
-  text-align: center;
+  width: 100% ;
+  text-align: left;
   text-transform: uppercase;
   border: 1px solid #e1e1e1;
 }
 .payment{
-  margin-top: 30px;
-  font-weight: 500;
-   position: relative;
-   width: 40%;
-   min-height: 1px;
+  margin-top: 5em;
+  font-weight: 400;
+   width: 50%;
    padding-right: 15px;
    padding-left: 15px;
-   position: relative;
    text-align: left;
+}
+.payment div{
+  text-align: left;
 }
 .cart{
-  margin-top: 30px;
-  font-weight: 500;
-   position: relative;
-   width: 60%;
-   min-height: 1px;
+  margin-top: 5em;
+  font-weight: 400;
+   width: 50%;
    padding-right: 15px;
    padding-left: 15px;
-   position: relative;
    text-align: left;
 }
 
-.container {
+.containerShop {
   display: flex;
+  margin: 5em;
+  width: 80%;
+  justify-content: center;
+}
+.containerShopSection{
+  display: flex;
+  justify-content: center;
 }
 
-.payment,
-.cart {
-  flex: 1;
-  padding: 10px; 
-}
 .aFewWords{
  height: 105vh;
 display: flex;
