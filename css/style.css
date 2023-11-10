@@ -1065,11 +1065,15 @@ input {
 }
 
 .postsBlog h6 {
-  text-transform: uppercase;
-  font-size: 16px;
-  text-align: left;
-  margin: 1em 0; 
-  align-items: left;
+  display: block;
+    font-size: 1.20em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: .075em;
+    font-weight: 400;
+    text-align: left;
 }
 
 .postsBlog article {
@@ -1151,13 +1155,18 @@ input {
   margin-right: 12em;
 }
 .aside img {
-  margin: 1em;
-  margin-top: 12em;
-  width: 50%;
-  height: auto;
-  box-sizing: border-box;
-  background: #f9faf9;
+  width: 60%;
+
 }
+.articleImg {
+  border: 1px solid #777777;
+  padding: 1em;
+  height: 20%;
+  margin-top: 5em ;
+  
+}
+
+
 .aside article h6 { 
   text-transform: uppercase;
   font-size: 16px;
@@ -1166,21 +1175,52 @@ input {
   box-sizing: border-box;
   background: #f9faf9;
 }
+
+.aside input {
+  width: 20em;
+  height: 4em;
+  border-color:#e1e1e1;
+  background-color: #e1e1e1;
+}
+.aside h5 {
+  display: block;
+    font-size: 1.20em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: .075em;
+    font-weight: 400;
+
+}
 .aside h6 { 
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: .075em;
-  color: #000000;
+ 
+    font-size: 1.20em;
+    letter-spacing: .075em;
+    font-weight: 400;
+    text-align: left;
+}
+.linksAside { 
+    font-size: 1.20em;
+    letter-spacing: .075em;
+    font-weight: 400;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.LatestsPostDiv article{
+ align-items: center;
+  display:flex;
 }
 .aside p {
-  font-size: 12px;
+  
   color: #777777;
 }
 .formBlogPost {
   margin-top: 30px;
    font-weight: 500;
     position: relative;
-    width: 30%;
+    width: 70%;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
