@@ -191,7 +191,6 @@ a {
   align-items:center;
 }
 
-
 .categoriesDiv {
   display: flex;
   justify-content: center;
@@ -211,8 +210,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
-
 }
 
 .categories article {
@@ -674,9 +671,7 @@ background-position: center center;
   border: none; 
   margin: 10px 0; 
 }
-.display:flex {
-  display= flex;
-}
+
 input[type="number"] {
   align-items: left;
   padding: 17px 10px;
@@ -695,7 +690,7 @@ input[type="number"] {
 .masMenos {
   display: flex; 
   flex-wrap:wrap;
-  margin; 0px 5px;
+  margin: 0px 5px;
   width: 30px;
   height: 30px;
   margin-left: 15px
@@ -857,7 +852,7 @@ input[type="number"] {
   vertical-align: right;
   text-align: right;
   box-sizing: border-box;
-  color: #777777;0
+  color: #777777;
   font-size: 15px;
   line-height: 1.6;
   font-weight: 400;
@@ -897,7 +892,7 @@ input[type="number"] {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  position: relative
+  position: relative;
   text-align: left;
 }
 .lastName h3{ 
@@ -908,7 +903,7 @@ input[type="number"] {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  position: relative
+  position: relative;
   text-align: right;
 }
 input {
@@ -1374,11 +1369,12 @@ justify-content: space-between;
 width: 90%;
 
 }
+
 .textoAFewWords{
   width:30%;
   text-align: left;
-  display: flex;
-  flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -1413,12 +1409,18 @@ align-items: center;
   font-size: 1.1em;
   font-weight: 400;
 }
-.textoAFewWords a{
+.aFewWordsDiv a{
   color: #ffffff;
     background-color: #92c5d9;
     border-color: #92c5d9;
+    padding: 9px 40px;
+    margin-top: 3em;
 }
-
+.aFewWordsDiv a:hover{
+  color: #151515;
+  background-color: #e9da5d;
+  border-color: #e9da5d;
+}
 .escritorioAboutUs{
   max-width: 90%;
   height: auto;
