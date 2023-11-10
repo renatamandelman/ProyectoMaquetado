@@ -1555,3 +1555,57 @@ margin-left:5em;
 margin-right:5em;
 
 }
+.ourTeam{
+height: 90vh;
+display: flex;
+align-items: center;
+}
+.ourTeamAll{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ourTeamArticle{
+align-items: center;
+  display: flex;
+justify-content: center;
+  
+}
+.ourTeam img{
+  width:50%;
+}
+
+.bannerGridBlog{
+  position: relative;
+  text-align: center;
+  height: 60vh;
+} 
+
+.bannerGridBlog{
+  background-image:url('https://ld-wt73.template-help.com/wt_prod-22491/images/bg-about-1.jpg');
+  background-position: center center;
+  background-size: cover;
+ text-align: center;
+ color:white;
+ align-items: center;
+ justify-content: center;
+ display:flex;
+}
+.articlesGridBlog{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  margin:5em;
+  height: 195vh;
+}
+.articlesGridBlog article{
+  width:30%;
+  background: #f9faf9;
+  margin-bottom:1em;
+}
+.articlesGridBlog div{
+  text-align: left;
+  padding: 34px 10% 45px;
+  height: 34vh;
+
+}
