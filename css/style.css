@@ -955,8 +955,15 @@ input {
   box-sizing: border-box;
   text-align: center;
 }
-.{
-  
+.art1J img{
+  display: inline-block;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+  height:auto;
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%   ;
 }
 
 
