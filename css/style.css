@@ -1041,9 +1041,19 @@ input {
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 .linksBlogPost2 {
-  display: inline-block;
+  display: flex;
   text-align: left;
-  margin-left: 8px;
+  margin-left: 12em;
+  justify-content: space-between;
+  
+}
+.linksBlogPost3 {
+  display: inline-flex;
+  text-align: left;
+  margin-left: 40em;
+  flex-wrap: wrap;
+  
+  
 }
 .postsBlog {
   width: 50%;
@@ -1165,6 +1175,57 @@ input {
 .aside p {
   font-size: 12px;
   color: #777777;
+}
+.formBlogPost {
+  margin-top: 30px;
+   font-weight: 500;
+    position: relative;
+    width: 30%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    text-align: left;
+    margin-left: 12em;
+}
+.formBlogPost h6 {
+  display: block;
+    font-size: 1.20em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: .075em;
+    font-weight: 400;
+}
+.formBlogPost input {
+  display: block;
+  width: 100%;
+  min-height: 50px;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .025em;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #151515;
+  background-color: transparent;
+  background-image: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  transition: .3s ease-in-out;
+  border: 1px solid #e1e1e1;
+  border-width: 0 0 1px 0;
+}
+.formBlogPost button {
+  margin-top: 5em;
+  min-width: 16em;
+  background-color: #e9da5d;
+    border-color: #e9da5d;
+    padding: 9px 25px;
+    font-size: 14px;
+    line-height: 4;
+
 }
 .singleProductImg{
   width:50%;
