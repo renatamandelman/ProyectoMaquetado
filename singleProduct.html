@@ -58,56 +58,61 @@
       <div class="imgBannerSingleProduct">
         <h2>Single product</h2>
       </div>
-      <div class="home">
-          <ul>
-            <li id="spHome"> Home </li>
-            <li id>
-              <iconify-icon icon="maki:arrow"></iconify-icon>
-            </li>
-            <li id="spShop"> Shop </li>
-            <li>
-              <iconify-icon icon="maki:arrow"></iconify-icon>
-            </li>
-            <li id="sinProd"> Single product </li>
-          </ul>
-        </div>
+      <div class="linksBlogPost">
+        <ul>
+          <li><a style="color: #777777;" href="home.html"> Home </a> </li>
+          <li>
+            <iconify-icon icon="maki:arrow"></iconify-icon>
+          </li>
+
+          <li><a style="color: #777777;" href="shop.html"> Shop </a> </li>
+          <li>
+            <iconify-icon icon="maki:arrow"></iconify-icon>
+          </li>
+
+          <li><a style="color: #151515;" href="singleProduct.html"> Single Product </a> </li>
+        </ul>
+      </div>
     </section>
     <section class="todoProductSingle">
-      
-      <div class="productSingleProduct">
-        <img id="singleProductImg" src="assets/img/single-product-1-530x480.png" />
-        <div class="productsSP">
-          <img src="assets/img/art1.jpeg" />
-          <img src="assets/img/art1.jpeg" />
-          <img src="assets/img/art1.jpeg" />
+      <div class="columns">
+        <div class="productSingleProduct">
+          <img id="singleProductImg" src="assets/img/single-product-1-530x480.png" />
+          <div class="productsSP">
+            <img src="assets/img/art1.jpeg" />
+            <img src="assets/img/art1.jpeg" />
+            <img src="assets/img/art1.jpeg" />
+          </div>
         </div>
-      </div>
-      <div class="whiteClub">
-        <div class="infoWhiteClub">
-          <h3 class="whiteClub"> White Club Chair</h3>
-          <h4 class="price">$20</h4>
-          <ul class="iconStars">
-            <li>
-              <iconify-icon icon="ic:outline-star"></iconify-icon>
-            </li>
-            <li>
-              <iconify-icon icon="ic:outline-star"></iconify-icon>
-            </li>
-            <li>
-              <iconify-icon icon="ic:outline-star"></iconify-icon>
-            </li>
-            <li>
-              <iconify-icon icon="ic:outline-star"></iconify-icon>
-            </li>
-            <li>
-              <iconify-icon icon="material-symbols:star-half"></iconify-icon>
-            </li>
-            <p> Lorem ipsum dolor sit amet, ei impetus epicurei his, ne falli erant consequuntur est. Mei simul aperiam
-              eu, an rebum regione ponderum mel. Facer placerat ut duo, id duis solum maiorum vis, vim autemsemper
-              docendi
-              cu. Pro </p>
-              <hr class="hr-gray-100">
-          </ul>
+        <div class="whiteClub">
+          <h3> White Club Chair</h3>
+          <div class="priceAndStars">
+            <h4> $20 </h4>
+            <ul>
+              <li>
+                <iconify-icon icon="ic:outline-star"></iconify-icon>
+              </li>
+              <li>
+                <iconify-icon icon="ic:outline-star"></iconify-icon>
+              </li>
+              <li>
+                <iconify-icon icon="ic:outline-star"></iconify-icon>
+              </li>
+              <li>
+                <iconify-icon icon="ic:outline-star"></iconify-icon>
+              </li>
+              <li>
+                <iconify-icon icon="material-symbols:star-half"></iconify-icon>
+              </li>
+            </ul>
+          </div>
+          <p id="loremSingle"> Lorem ipsum dolor sit amet, ei impetus epicurei his, ne falli erant consequuntur est. Mei
+            simul aperiam
+            eu, an rebum regione ponderum mel. Facer placerat ut duo, id duis solum maiorum vis, vim autemsemper
+            docendi
+            cu. Pro </p>
+          <hr class="hr-gray-100">
+
           <ul class="spans">
             <li>
               <span class="spanNegro"> Categories: </span>
@@ -122,95 +127,113 @@
               <span class="spanGris"> 60 x 60 x 90 cm </span>
             </li>
           </ul>
-          <div>
-          <input type="number" value="1">
-          <div class="masMenos">
-          <span class="stepper-arrow-down">+</span>
-          <span class="stepper-arrow-down">-</span>
+          <div class="number">
+            <input value="1">
+            <div class="masMenos">
+              <span class="stepper-arrow-down">+</span>
+              <span class="stepper-arrow-down">-</span>
+            </div>
+            <a class="btn addToCart"> Add to cart </a>
           </div>
-          <button class="addToCart"> Add to cart </button>
+          <hr class="hr-gray-100">
+          <div class="container">
+            <p id="share"> Share </p>
+            <ul class="socialMedia">
+              <li> <a>
+                  <iconify-icon icon="eva:facebook-fill">
+                </a> </li>
+              <li> <a>
+                  <iconify-icon icon="mdi:twitter"></iconify-icon>
+                </a> </li>
+              <li> <a>
+                  <iconify-icon icon="typcn:social-instagram"></iconify-icon>
+                </a> </li>
+              <li> <a>
+                  <iconify-icon icon="mdi:google-plus"></iconify-icon>
+                </a> </li>
+            </ul>
+          </div>
+
         </div>
-        <div class="container">
-        <p id="share"> Share </p>
-        </div>
-        <ul class="socialMedia">
-          <li> Facebook </li>
-          <li> Twitter </li>
-          <li> Instagram </li>
-          <li> Chrome </li>
-        </ul>
       </div>
-      </div>
-   
+      </div> 
+     
     </section>
-    <div class="container">
-      <a class="review"> REVIEWS </a>
-      <a class="adittional"> ADITTIONAL INFORMATION </a>
-      <a class="delivery"> DELIVERY AND PAYMENT </a>
+<section class="containerReview">
+    <div >
+      <ul>
+      <li><a class="review"> REVIEWS </a></li>
+     <li> <a class="adittional"> ADITTIONAL INFORMATION </a></li>
+     <li> <a class="delivery"> DELIVERY AND PAYMENT </a></li>
+    </ul>
+    <hr class="lineaReview">
     </div>
-    <section>
-      <div>
+  </section>
+    <section class="jDoeSection">
         <div class="jDoe">
           <div class="imageContainer">
-          <img src="assets/img/jdoe.jpg">
+            <img src="assets/img/jdoe.jpg">
           </div>
-        <div class="content">
-          <a href="#"> Jane Doe</a>
-          <ul class="icons">
-            <li>
-              <iconify-icon icon="ic:outline-star"></iconify-icon>
-            </li>
-            <li>
-              <iconify-icon icon="ic:outline-star"></iconify-icon>
-            </li>
-            <li>
-              <iconify-icon icon="ic:outline-star"></iconify-icon>
-            </li>
-            <li>
-              <iconify-icon icon="ic:outline-star"></iconify-icon>
-            </li>
-            <li>
-              <iconify-icon icon="material-symbols:star-half"></iconify-icon>
-            </li>
-          </ul>
-          <div class="dateContainer">
-          <time datetime="2019-30-11">Nov 30, 2019</time>
-         </div>
-          <p>Donec nulla mauris, tempor ac velit at, consectetur tempor enim. Donec rutrum faucibus consectetur.
-            Vivamus blandit leo a sodales sagittis. Sed nulla lacus, placerat eget urna in, ultricies scelerisque
-            nunc..</p>
+          <div class="content">
+            <div class="fecha">
+            <div >
+            <a href="#"> Jane Doe</a>
+            <ul class="icons">
+              <li>
+                <iconify-icon icon="ic:outline-star"></iconify-icon>
+              </li>
+              <li>
+                <iconify-icon icon="ic:outline-star"></iconify-icon>
+              </li>
+              <li>
+                <iconify-icon icon="ic:outline-star"></iconify-icon>
+              </li>
+              <li>
+                <iconify-icon icon="ic:outline-star"></iconify-icon>
+              </li>
+              <li>
+                <iconify-icon icon="material-symbols:star-half"></iconify-icon>
+              </li>
+            </ul>
+          </div>   
+          <p class="dateContainer">Nov 30, 2019</p>
+        </div>
+        
+            <p>Donec nulla mauris, tempor ac velit at, consectetur tempor enim. Donec rutrum faucibus consectetur.
+              Vivamus blandit leo a sodales sagittis. Sed nulla lacus, placerat eget urna in, ultricies scelerisque
+              nunc..</p>
           </div>
-          </section>
-          <h4 class="leaveReview">Leave a Review</h4>
+    </section>
+    <h4 class="leaveReview">Leave a Review</h4>
 
-  <section class="formsReview">
-    <form class="formulario">
-      <div class="firstName">
-        <h3 class="firstName">First Name</h3>
-        <input type="text" id="firstName" name="firstName">
-      </div>
-      <div>
-        <h3 class="lastName">Last Name</h3>
-        <input type="text" id="lastName" name="lastName">
-      </div>
-      <div>
-        <h3 class="firstName">E-mail</h3>
-        <input type="email" id="email" name="email">
-      </div>
-      <div>
-        <h3 class="lastName">Phone</h3>
-        <input type="number" id="phone" name="phone">
-      </div>
-      <div>
-        <h3 class="firstName">Message</h3>
-        <input type="text" id="message" name="message">
-      </div>
-      <div>
-        <button class="submit">Submit</button>
-      </div>
-    </form>
-  </section>
-           
+    <section class="formsReview">
+      <form class="formulario">
+        <div class="firstName">
+          <h3 class="firstName">First Name</h3>
+          <input type="text" id="firstName" name="firstName">
+        </div>
+        <div>
+          <h3 class="lastName">Last Name</h3>
+          <input type="text" id="lastName" name="lastName">
+        </div>
+        <div>
+          <h3 class="firstName">E-mail</h3>
+          <input type="email" id="email" name="email">
+        </div>
+        <div>
+          <h3 class="lastName">Phone</h3>
+          <input type="number" id="phone" name="phone">
+        </div>
+        <div>
+          <h3 class="firstName">Message</h3>
+          <input type="text" id="message" name="message">
+        </div>
+        <div>
+          <button class="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
     <div>
       <h4 class="featured"> FEATURED PRODUCTS </h4>
       <!-- <article class="gardenTable">
@@ -250,8 +273,8 @@
             <h4> <a href="home.html"> <img src="assets/img/logoBlanco.png" /></a></h4>
             <p>Weekdays:08:00am - 08:00pm</p>
             <p> Weekends:10:00am - 06:00pm</p>
-  
-  
+
+
             <p> Get Social</p>
             <ul>
               <li> facebook</li>
@@ -270,7 +293,8 @@
           </div>
           <div>
             <h4> Newsletter</h4>
-            <p> Subscribe to our newsletter to receive weekly news, updates, special offers, and exclusive discounts.</p>
+            <p> Subscribe to our newsletter to receive weekly news, updates, special offers, and exclusive discounts.
+            </p>
             <form>
               <label for="email">Enter your email:</label>
               <input type="email" id="email" name="email">
@@ -279,16 +303,16 @@
           </div>
         </div>
       </section>
-  
+
       <section class="footer-panel">
         <p> © 2023 Sofa. All rights reserved</p>
         <div>
-        <img src="assets/img/payment-1-45x15.png" alt="" width="45" height="15">
-        <img src="assets/img/payment-2-46x28.png" alt="" width="46" height="28">
-        <img src="assets/img/payment-3-62x17.png" alt="" width="62" height="17">
-      </div>
+          <img src="assets/img/payment-1-45x15.png" alt="" width="45" height="15">
+          <img src="assets/img/payment-2-46x28.png" alt="" width="46" height="28">
+          <img src="assets/img/payment-3-62x17.png" alt="" width="62" height="17">
+        </div>
         <a href="privacy-policy.html">Privacy Policy</a>
-  
+
       </section>
     </footer>
 </body>
