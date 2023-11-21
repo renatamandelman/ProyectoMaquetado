@@ -549,8 +549,7 @@ h2 {
   text-transform: uppercase;
 
   font-family: 'Roboto Condensed', sans-serif;
-
-
+  padding: 0 0.5em
 }
 
 .linksAboutUs a {
@@ -595,11 +594,13 @@ h2 {
   width: 50%;
   justify-content: left;
 }
+
 .columns {
   width: 90%;
-  display:flex;
+  display: flex;
   margin: 5em;
 }
+
 .productSingleProduct {
   width: 50%;
   box-sizing: border-box;
@@ -607,7 +608,7 @@ h2 {
 
 
 
-.whiteClub h3{
+.whiteClub h3 {
   font-weight: 500;
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   letter-spacing: .025em;
@@ -621,7 +622,7 @@ h2 {
 .todoProductSingle {
   display: flex;
   justify-content: center;
-  
+
 }
 
 .priceAndStars {
@@ -632,7 +633,7 @@ h2 {
 }
 
 .priceAndStars h4 {
-  margin-right:1em;
+  margin-right: 1em;
   text-align: left;
   font-size: 2em;
   font-weight: 500;
@@ -675,7 +676,7 @@ h2 {
 
 .spans {
   padding: 0;
-  font-size : 1.2em;
+  font-size: 1.2em;
   text-align: left;
   box-sizing: border-box;
   margin-top: 2em;
@@ -691,7 +692,7 @@ h2 {
 }
 
 .hr-gray-100 {
- 
+
   height: 2px;
   margin: 10px 0;
   border-color: #e1e1e1;
@@ -699,12 +700,14 @@ h2 {
   border-top: 1px solid #ebebeb;
   opacity: 1;
 }
+
 .number {
   text-align: center;
-  display:flex;
+  display: flex;
   align-items: center;
   margin-top: 1em;
 }
+
 .number input {
   padding: 1em 0.5em;
   max-width: 4.3em;
@@ -724,7 +727,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   width: 7%;
-  
+
 }
 
 .stepper-arrow-down {
@@ -743,7 +746,7 @@ h2 {
   line-height: 2em;
   left: auto;
   bottom: 0;
-  margin-bottom:0.2em;
+  margin-bottom: 0.2em;
 }
 
 .stepper-arrow-down:hover {
@@ -768,7 +771,7 @@ h2 {
   text-align: center;
   min-width: 176px;
   margin-left: 0.5em;
-  cursor:pointer
+  cursor: pointer
 }
 
 .addToCart:hover {
@@ -779,7 +782,7 @@ h2 {
 
 
 .socialMedia ul {
-  padding:0;
+  padding: 0;
   font-weight: 400;
 }
 
@@ -808,18 +811,20 @@ h2 {
 
 }
 
-.containerReview{
+.containerReview {
   display: flex;
   justify-content: center;
- 
+
 }
-.containerReview div{
-  width:90%;
+
+.containerReview div {
+  width: 90%;
   font-size: 1.2em;
   padding-top: 0;
   padding-bottom: 1em;
   margin-top: 2em;
 }
+
 .review {
   color: #92c5d9;
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -828,7 +833,8 @@ h2 {
   font-size: 14px;
   padding-top: 0;
 }
-.containerReview ul{
+
+.containerReview ul {
   display: flex;
   width: 40%;
   padding: 0;
@@ -836,7 +842,8 @@ h2 {
 
 }
 
-.adittional, .delivery {
+.adittional,
+.delivery {
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: #9b9b9b;
   text-transform: uppercase;
@@ -844,10 +851,12 @@ h2 {
   padding-top: 0;
   font-size: 14px;
 }
+
 .jDoeSection {
   display: flex;
   justify-content: center;
 }
+
 .jDoe {
   display: flex;
   text-align: left;
@@ -863,10 +872,12 @@ h2 {
   width: 119px;
   max-width: 100%;
 }
+
 .content {
   margin-left: 1em;
   font-size: 1.3em;
-} 
+}
+
 .content a {
   display: inline-block;
   font-weight: 500;
@@ -880,15 +891,18 @@ h2 {
   color: #151515;
 
 }
-.fecha{
+
+.fecha {
   display: flex;
   justify-content: space-between;
 }
-.fecha div{
- display: flex;
- width: 40%; 
- align-items: flex-end;
+
+.fecha div {
+  display: flex;
+  width: 40%;
+  align-items: flex-end;
 }
+
 .icons {
   list-style: none;
   padding: 0;
@@ -903,7 +917,7 @@ h2 {
 
 .dateContainer {
   text-align: right;
-  color: #777777!important; 
+  color: #777777 !important;
   font-size: 15px;
   line-height: 1.6;
   font-weight: 400;
@@ -1357,21 +1371,22 @@ input {
 
 .productSingleProduct {
   width: 50%;
-justify-content: center;
-display: flex;
-flex-wrap:wrap;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.productsSP{
-  width:90%;
+.productsSP {
+  width: 90%;
   margin: 1em;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
+
 .productsSP img {
   width: 32%;
   display: inline-block;
-  
+
 }
 
 .whiteClub {
@@ -1613,10 +1628,14 @@ th {
 }
 
 .textoAFewWords ul {
+  width: 100%;
   padding: 0;
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
-.lineaReview, .textoAFewWords hr {
+
+.lineaReview,
+.textoAFewWords hr {
   content: '';
   bottom: 0;
   left: 0;
@@ -1757,28 +1776,30 @@ th {
   display: flex;
 }
 
-.articlesGridBlog {
-  display: flex;
-  height: 195vh;
-}
+
 
 .articlesGridBlog {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: 80%;
+  height: 195vh;
 }
 
 .articlesGridBlog article {
   width: 32%;
+
   background: #f9faf9;
   margin-bottom: 1em;
 
 }
 
-.articlesGridBlog div {
+.articlesGridBlogDiv {
   text-align: left;
   padding: 34px 10% 45px;
   height: 34vh;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-top:5em;
 
 }
