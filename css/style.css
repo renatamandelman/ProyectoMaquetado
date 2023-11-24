@@ -1347,15 +1347,16 @@ width:80%;
 
 }
 
-.rebeca {
-  width: 60%;
-  border-radius: 100%;
-}
+
 .articleImg {
   border: 1px solid #dbdbdb;
   padding: 1em;
   height: 20%;
   margin-top: 5em;
+
+  width:80%;
+  border-top: 1px solid #ebebeb;
+  opacity: 1;
 
 }
 
@@ -2029,3 +2030,22 @@ th {
 }
 
 
+
+
+
+
+.rebeca {
+  width: 60%;
+  border-radius: 100%;
+}
+
+
+.tagsh6 {
+  display: inline-block;
+  padding: 15%;
+  text-align: left;
+  color: #b9b9b9;
+  font-weight: 600;
+  text-transform: uppercase;
+
+} */
