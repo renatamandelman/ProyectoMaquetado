@@ -1162,7 +1162,7 @@ width:80%;
 .parrafoBlog {
   text-align: left;
   margin-left: 12em;
-  margin-right: 10em;
+  margin-right: 6em;
 
 }
 
@@ -1348,8 +1348,12 @@ width:80%;
 
 }
 
+.rebeca {
+  width: 60%;
+  border-radius: 100%;
+}
 .articleImg {
-  border: 1px solid #777777;
+  border: 1px solid #dbdbdb;
   padding: 1em;
   height: 20%;
   margin-top: 5em;
@@ -1416,7 +1420,15 @@ width:80%;
   border-top: 1px solid #ebebeb;
   opacity: 1;
 } 
-
+.tagsh6 {
+  display: inline-block;
+  padding: 15%;
+  text-align: left;
+  color: #b9b9b9;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+}
 .formBlogPost {
   margin-top: 30px;
   font-weight: 500;
