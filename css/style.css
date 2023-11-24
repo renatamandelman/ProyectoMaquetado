@@ -2099,4 +2099,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.archive ul{
+text-align:left
+}
+.archive li{
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+.archive li iconify-icon{
+color:#e9da5d; 
+margin-right:1em;
 
+}

@@ -64,7 +64,7 @@
 
     </section>
     <section>
-      <div class="linksBlogPost">
+      <div class="linksBlogPost linksAboutUs">
         <ul>
           <li><a style="color: #777777;" href="home.html"> Home </a> </li>
           <li>
@@ -233,27 +233,31 @@
               promissio flavum</p>
           </article> -->
         </div>
-        <div class="formBlogPost">
-          <h6> LEAVE A COMMENT </h6>
-          <form class="DeliveryAdressForm">
-            <div class="DeliveryAdressInputs">
-              <label class="formLabel" for="firstName"> First Name</label>
+        <section style="display: flex; justify-content: center;" >
+          <div class="formsReview">
+          <h4 class="leaveReview" style="text-transform: uppercase;">Leave a comment</h4>
+          <form class="formulario">
+         
+          <div class="labels" style="width:80% !important">
+            <div>
+              <label>First Name</label>
               <input type="text" id="firstName" name="firstName">
-
-              <label class="formLabel" for="LastName"> Last Name</label>
-              <input type="text" id="LastName" name="LastName">
-
-              <label class="formLabel" for="company"> Message </label>
-              <input type="text" id="message" name="message">
-
-
-              <button class="btn"> SUBMIT </button>
-
             </div>
+            <div>
+              <label >Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+          </div>
+            <div class="labelMessage" style="width:50%; margin:0">
+              <label  >Message</label>
+              <textarea type="textarea" id="message" name="message"> </textarea>
+            </div>
+         
+            <button class="submit">Submit</button>
+    
           </form>
-
-
         </div>
+        </section>
       </div>
       <div class="aside">
 
@@ -321,14 +325,17 @@
               <a> Lighting </a>
             </div>
             </div>
-            <div>
+            <div class="archive">
             <h6>Archive</h6>
             <hr class="hr-gray-100Pt">
             <ul>
-              <li>March 2021</li>
-              <li>February 2021</li>
-              <li>January 2021</li>
-              <li>December 2021</li>
+              <li><iconify-icon  icon="icon-park-outline:dot"></iconify-icon>March 2021</li>
+              <li> <iconify-icon  icon="icon-park-outline:dot"></iconify-icon>
+                February 2021</li>
+              <li> <iconify-icon  icon="icon-park-outline:dot"></iconify-icon>
+                January 2021</li>
+              <li> <iconify-icon icon="icon-park-outline:dot"></iconify-icon>
+                December 2021</li>
             </ul>
           </div>
           </div>
