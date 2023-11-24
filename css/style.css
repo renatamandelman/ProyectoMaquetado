@@ -1096,8 +1096,11 @@ width:80%;
   font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
   text-align: center;
-  align-items: left;
+
   cursor: pointerx;
+  align-items: center;
+  justify-content: center;
+    display: flex;
 }
 
 .submit:hover {
@@ -1405,12 +1408,7 @@ width:80%;
   background: #f9faf9;
 }
 
-.aside input {
-  width: 20em;
-  height: 4em;
-  border-color: #e1e1e1;
-  background-color: #e1e1e1;
-}
+
 
 .aside h5 {
   display: block;
@@ -1442,6 +1440,8 @@ width:80%;
 .LatestsPostDiv article {
   align-items: center;
   display: flex;
+  text-align: left;
+  font-size:1.1em;
 }
 
 .LatestsPostDiv img{
@@ -1449,6 +1449,7 @@ width:80%;
   height: auto;
   margin-top: 1em;
   margin-bottom: 1em;
+  margin-right:1em;
 }
 
 .aside p {
@@ -2061,25 +2062,24 @@ th {
   width: 32%;
   background: #f9faf9;
   margin-bottom: 1em;
-  padding-left: 2.5em;
-  padding-right: 2.5em;
+
 }
 
-.articlesGridBlogDiv p {
+.articlesGridBlogDiv p, .articlesBlogPostDiv p {
   display: flex;
   margin-top: 1em;
   color: #777777;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
-.articlesGridBlogDiv h5{
+.articlesGridBlogDiv h5 , .articlesBlogPostDiv h5{
   display: flex;
   margin-top: 1em;
   font-size: 1.5em;
   text-transform: none;
 }
 
-.articlesGridBlogDiv {
+.articlesGridBlogDiv, .articlesBlogPostDiv {
   text-align: left;
   padding: 34px 10% 45px;
   height: auto;
@@ -2088,6 +2088,9 @@ th {
   justify-content: space-between;
   margin-top:5em;
 
+}
+.articlesGridBlogDiv div, .articlesBlogPostDiv div{
+  padding:2em;
 }
 .paginas{
   display: flex;
@@ -2129,3 +2132,19 @@ color:#e9da5d;
 margin-right:1em;
 
 }
+.formAside{
+  background-color: #f9faf9;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  font-size:2em;
+  padding:0.5em;
+}
+
+.aside input {
+
+height: 3em;
+  border-color: transparent;
+  background-color:transparent;
+}
+
