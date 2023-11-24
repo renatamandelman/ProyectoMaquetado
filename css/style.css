@@ -566,13 +566,13 @@ h2 {
   font-size: 1.2em;
 }
 
-.bannerAboutUs {
+.bannerAboutUs, .bannerGridBlog, .bannerBlogPost  {
   position: relative;
   text-align: center;
   height: 60vh;
 }
 
-.imgBannerAboutUs {
+.imgBannerAboutUs, .bannerBlogPost, .bannerGridBlog {
   background-image: url("../assets/img/bannerAboutUs.jpeg");
   position: relative;
   overflow: hidden;
@@ -2013,11 +2013,7 @@ th {
   margin-right: 10px;
   margin-top: 20px;
 }
-.bannerGridBlog {
-  position: relative;
-  text-align: center;
-  height: 60vh;
-}
+
 
 .bannerGridBlog {
   background-image: url('https://ld-wt73.template-help.com/wt_prod-22491/images/bg-about-1.jpg');
