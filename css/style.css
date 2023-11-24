@@ -2031,7 +2031,22 @@ th {
 }
 
 
+.articlesBlogPostDiv article {
+  width: 48%;
+  background: #f9faf9;
+  margin-bottom: 1em;
 
+}
+.articlesBlogPostDiv {
+  text-align: left;
+  padding: 34px 10% 45px;
+  height: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-top:5em;
+
+}
 .articlesGridBlog {
   display: flex;
   justify-content: center;
@@ -2039,6 +2054,7 @@ th {
   height: 195vh;
   
 }
+
 
 .articlesGridBlogDiv article {
   width: 32%;
