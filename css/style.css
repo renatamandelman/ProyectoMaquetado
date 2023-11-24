@@ -1222,9 +1222,10 @@ width:80%;
     justify-content: space-between;
     
 }
-.linksBlogPost2Div a{
+.linksBlogPost2Div a, .tagsh6 a{
   color: #777777;
   font-weight: 600;
+  padding: 0 0.5em
 }
 
 .linksBlogPost3 {
@@ -1419,12 +1420,12 @@ width:80%;
   opacity: 1;
 } 
 .tagsh6 {
-  display: inline-block;
-  padding: 15%;
+  
   text-align: left;
   color: #b9b9b9;
   font-weight: 600;
   text-transform: uppercase;
+  padding: 10;
   
 }
 .formBlogPost {
