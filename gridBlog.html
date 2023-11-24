@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Grid Blog</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/2b9cdc1c9a.js" crossorigin="anonymous"></script>
@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@300;400;500;600&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/vector.jpeg">
+
   </head>
 <section>
 
@@ -24,9 +27,9 @@
       <h1 class="logo"> <a href="home.html"> <img src="assets/img/logo.png" /></a> </h1>
       <div class="menu">
         <ul >
-          <li class="navitem" id="active"> <a class="navLink " href="home.html"> Home </a> </li>
+          <li class="navitem"> <a class="navLink " href="home.html"> Home </a> </li>
           <li class="navitem"> <a class="navLink" href="aboutUs.html"> Pages </a> </li>
-          <li class="navitem"> <a class="navLink" href="gridBlog.html"> Blog </a> </li>
+          <li class="navitem active"> <a class="navLink" href="gridBlog.html"> Blog </a> </li>
           <li class="navitem"> <a class="navLink" href="blogPost.html"> Gallery </a> </li>
           <li class="navitem"> <a class="navLink" href="singleProduct.html"> Elements </a> </li>
           <li class="navitem"> <a class="navLink" href="checkout.html"> shop </a> </li>
@@ -127,57 +130,92 @@
         </section>
        
       </main>
-          
-
-          <footer>
-            <section class="footerContenido">
-              <div class="footerColumnas">
-                <div>
-                  <h4> <a href="home.html"> <img src="assets/img/logoBlanco.png" /></a></h4>
-                  <p>Weekdays:08:00am - 08:00pm</p>
-                  <p> Weekends:10:00am - 06:00pm</p>
-        
-        
-                  <p> Get Social</p>
-                  <ul>
-                    <li> facebook</li>
-                    <li>twitter</li>
-                    <li>instagram</li>
-                    <li>google</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4> Contacts</h4>
-                  <ul>
-                    <li> <a href="#">523 Sylvan Ave, 5th Floor<br>Mountain View, CA 94041 USA</a></li>
-                    <li><a href="#">+1 (844) 123 456 78</a></li>
-                    <li><a href="#">info@demolink.org</a></li>
-                  </ul>
-                </div>
-                <div>
-                  <h4> Newsletter</h4>
-                  <p> Subscribe to our newsletter to receive weekly news, updates, special offers, and exclusive discounts.</p>
-                  <form>
-                    <label for="email">Enter your email:</label>
-                    <input type="email" id="email" name="email">
-                    <button>icon </button>
-                  </form>
-                </div>
-              </div>
-            </section>
-        
-            <section class="footer-panel">
-              <p> © 2023 Sofa. All rights reserved</p>
+      <footer>
+        <section class="footerContenido">
+          <div class="footerColumnas">
+            <div class="divLogo">
               <div>
-              <img src="assets/img/payment-1-45x15.png" alt="" width="45" height="15">
-              <img src="assets/img/payment-2-46x28.png" alt="" width="46" height="28">
-              <img src="assets/img/payment-3-62x17.png" alt="" width="62" height="17">
+                <h4> <a href="home.html"> <img src="assets/img/logoBlanco.png" /></a></h4>
+              </div>
+              <div>
+                <ul>
+                  <li style="display:flex;color:#9b9b9b; font-size: 1.1em;"> <a
+                      style="display:flex; margin-right:1em;color:#9b9b9b;font-size: 1.1em;"> Weekdays:</a> <span> 08:00am -
+                      08:00pm </span> </li>
+                  <li style="display:flex; color:#9b9b9b;font-size: 1.1em;"> <a
+                      style="display:flex; margin-right:1em;color:#9b9b9b;font-size: 1.1em;"> Weekends:</a> <span> 10:00am -
+                      06:00pm</span> </li>
+                </ul>
+              </div>
+      
+              <div class="container socialMediaFooter">
+                <p class="share"> Get social </p>
+                <ul class="socialMedia " style="color:white !important;">
+                  <li> <a>
+                      <iconify-icon icon="eva:facebook-fill">
+                    </a> </li>
+                  <li> <a>
+                      <iconify-icon icon="mdi:twitter"></iconify-icon>
+                    </a> </li>
+                  <li> <a>
+                      <iconify-icon icon="typcn:social-instagram"></iconify-icon>
+                    </a> </li>
+                  <li> <a>
+                      <iconify-icon icon="mdi:google-plus"></iconify-icon>
+                    </a> </li>
+                </ul>
+              </div>
             </div>
-              <a href="privacy-policy.html">Privacy Policy</a>
-        
-            </section>
-          </footer>
-
-            
-</body>
-</html>
+            <div class="divContacts">
+              <h4> Contacts</h4>
+              <ul>
+                <li>
+                  <iconify-icon style="color: #92c5d9; margin-right:0.5em;" icon="mdi:location"></iconify-icon> <span>523
+                    Sylvan Ave, 5th Floor Mountain View, CA 94041 USA </span>
+                </li>
+                <li>
+                  <iconify-icon style="color: #92c5d9;margin-right:0.5em;" icon="ic:baseline-phone"></iconify-icon> <span>+1
+                    (844) 123 456 78</span>
+                </li>
+                <li>
+                  <iconify-icon style="color: #92c5d9;margin-right:0.5em;" icon="material-symbols:mail-outline">
+                  </iconify-icon><span>info@demolink.org</span>
+                </li>
+              </ul>
+            </div>
+            <div class="divNewsletter">
+      
+              <h4> Newsletter</h4>
+      
+              <p> Subscribe to our newsletter to receive weekly news, updates, special offers, and exclusive discounts.</p>
+      
+      
+              <form style="display:flex;"">
+                 
+                    <label>Enter your e-mail</label>
+                    <input type=" text" id="firstName" name="firstName">
+                <button>
+                  <iconify-icon icon="teenyicons:send-outline"></iconify-icon>
+                </button>
+      
+              </form>
+      
+            </div>
+          </div>
+        </section>
+      
+        <section class="footer-panel">
+          <p> © 2023 Sofa. All rights reserved</p>
+          <div>
+            <img src="assets/img/payment-1-45x15.png" alt="" width="45" height="15">
+            <img src="assets/img/payment-2-46x28.png" alt="" width="46" height="28">
+            <img src="assets/img/payment-3-62x17.png" alt="" width="62" height="17">
+          </div>
+          <a href="privacy-policy.html">Privacy Policy</a>
+      
+        </section>
+        </footer>
+        </main>
+      </body>
+      
+      </html>

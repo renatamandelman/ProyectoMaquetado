@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Single Product</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/2b9cdc1c9a.js" crossorigin="anonymous"></script>
@@ -20,7 +20,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@300;400&family=Roboto:wght@100&display=swap"
     rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@300;400;500;600&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/vector.jpeg">
+
+  </head>
 
 <body>
   <header>
@@ -28,15 +31,15 @@
       <h1 class="logo"> <a href="home.html"> <img src="assets/img/logo.png" /></a> </h1>
       <div class="menu">
         <ul>
-          <li class="navitem" id="active"> <a class="navLink " href="home.html"> Home </a> </li>
+          <li class="navitem" > <a class="navLink " href="home.html"> Home </a> </li>
           <li class="navitem"> <a class="navLink" href="aboutUs.html"> Pages </a> </li>
           <li class="navitem"> <a class="navLink" href="gridBlog.html"> Blog </a> </li>
           <li class="navitem"> <a class="navLink" href="blogPost.html"> Gallery </a> </li>
-          <li class="navitem"> <a class="navLink" href="singleProduct.html"> Elements </a> </li>
-          <li class="navitem"> <a class="navLink" href="checkout.html"> shop </a> </li>
+          <li class="navitem active"> <a class="navLink" href="singleProduct.html"> Elements </a> </li>
+          <li class="navitem "> <a class="navLink" href="checkout.html"> shop </a> </li>
         </ul>
       </div>
-      <div class="buscador">
+      <div class="buscador ">
         <ul>
           <li class="navitem"> <button class="icon ">
               <iconify-icon icon="iconamoon:search-light"></iconify-icon>
@@ -58,7 +61,7 @@
       <div class="imgBannerSingleProduct">
         <h2>Single product</h2>
       </div>
-      <div class="linksBlogPost">
+      <div class="linksBlogPost linksAboutUs">
         <ul>
           <li><a style="color: #777777;" href="home.html"> Home </a> </li>
           <li>
@@ -137,20 +140,12 @@
           </div>
           <hr class="hr-gray-100">
           <div class="container">
-            <p id="share"> Share </p>
+            <p class="share"> Share </p>
             <ul class="socialMedia">
-              <li> <a>
-                  <iconify-icon icon="eva:facebook-fill">
-                </a> </li>
-              <li> <a>
-                  <iconify-icon icon="mdi:twitter"></iconify-icon>
-                </a> </li>
-              <li> <a>
-                  <iconify-icon icon="typcn:social-instagram"></iconify-icon>
-                </a> </li>
-              <li> <a>
-                  <iconify-icon icon="mdi:google-plus"></iconify-icon>
-                </a> </li>
+              <li> <a> <iconify-icon icon="eva:facebook-fill"> </a> </li>
+              <li> <a> <iconify-icon icon="mdi:twitter"></iconify-icon> </a> </li>
+              <li> <a> <iconify-icon icon="typcn:social-instagram"></iconify-icon> </a> </li>
+              <li> <a> <iconify-icon icon="mdi:google-plus"></iconify-icon> </a> </li>
             </ul>
           </div>
 
@@ -204,106 +199,154 @@
               nunc..</p>
           </div>
     </section>
-    <h4 class="leaveReview">Leave a Review</h4>
+    
 
-    <section class="formsReview">
+    <section style="display: flex; justify-content: center;" >
+      <div class="formsReview">
+      <h4 class="leaveReview">Leave a Review</h4>
       <form class="formulario">
-        <div class="firstName">
-          <h3 class="firstName">First Name</h3>
+      <div class="formsLabels">
+      <div class="labels">
+        <div>
+          <label>First Name</label>
           <input type="text" id="firstName" name="firstName">
         </div>
         <div>
-          <h3 class="lastName">Last Name</h3>
+          <label >Last Name</label>
           <input type="text" id="lastName" name="lastName">
         </div>
         <div>
-          <h3 class="firstName">E-mail</h3>
+          <label >E-mail</label>
           <input type="email" id="email" name="email">
         </div>
         <div>
-          <h3 class="lastName">Phone</h3>
+          <label >Phone</label>
           <input type="number" id="phone" name="phone">
         </div>
-        <div>
-          <h3 class="firstName">Message</h3>
-          <input type="text" id="message" name="message">
+      </div>
+        <div class="labelMessage">
+          <label  >Message</label>
+          <textarea type="textarea" id="message" name="message"> </textarea>
         </div>
-        <div>
-          <button class="submit">Submit</button>
         </div>
+        <button class="submit">Send Message</button>
+
       </form>
-    </section>
-
-    <div>
-      <h4 class="featured"> FEATURED PRODUCTS </h4>
-      <!-- <article class="gardenTable">
-        <div class="art1J">
-          <img src="assets/img/art1.jpeg">
-          <h5> GARDEN TABLE </h5>
-          <p> $23.00 </p>
-        </div>
-      </article>
-      <article class="clubChair">
-        <div>
-          <img src="assets/img/art2.jpeg">
-          <h5> CLUB CHAIR </h5>
-          <p> $13.00 </p>
-        </div>
-      </article>
-      <article class="pendantLamp">
-        <div>
-          <img src="assets/img/art3.jpeg">
-          <h5> PENDANT LAMP </h5>
-          <p> $17.00 </p>
-        </div>
-      </article>
-      <article class="darkGrey">
-        <div>
-          <img src="assets/img/art4.jpeg">
-          <h5> DARK GREY CLUB CHAIR </h5>
-          <p> $18.00 </p>
-        </div>
-      </article> -->
     </div>
-
+    </section>
+    <section class="trendingProducts" style="height: 80vh !important;">
+      <h2 class="featured"> FEATURED Products </h2>
+      <div class="trendingProductsDiv">
+        <article>
+          <img src="assets/img/art1.jpeg" />
+          <div class="trendingProductsArticleDiv">
+            <a href="">
+            <h5> Garden Table </h5></a>
+            <p> $23.00 </p>
+          </div>
+        </article>
+        <article>
+          <img src="assets/img/art2.jpeg" />
+          <div  class="trendingProductsArticleDiv">
+          
+              <h5>   <a href="">Club Chair</a> </h5>
+              <p> $13.00 </p>
+          </div>
+        </article>
+        <article>
+          <img src="assets/img/art3.jpeg" />
+          <div  class="trendingProductsArticleDiv">
+              <h5> <a href="">Pendant Lamp </a> </h5>
+        
+            <p> $17.00 </p>
+          </div>
+        </article>
+        <article>
+          <img src="assets/img/art4.jpeg" />
+          <div  class="trendingProductsArticleDiv">
+          <h5> <a href="">Dark Grey Club Chair</a></h5>
+            <p> $14.00 </p>
+          </div>
+        </article>
+    
+      
+      </div>
+      </div>
+    </section>
     <footer>
       <section class="footerContenido">
         <div class="footerColumnas">
-          <div>
-            <h4> <a href="home.html"> <img src="assets/img/logoBlanco.png" /></a></h4>
-            <p>Weekdays:08:00am - 08:00pm</p>
-            <p> Weekends:10:00am - 06:00pm</p>
-
-
-            <p> Get Social</p>
-            <ul>
-              <li> facebook</li>
-              <li>twitter</li>
-              <li>instagram</li>
-              <li>google</li>
-            </ul>
+          <div class="divLogo">
+            <div>
+              <h4> <a href="home.html"> <img src="assets/img/logoBlanco.png" /></a></h4>
+            </div>
+            <div>
+              <ul>
+                <li style="display:flex;color:#9b9b9b; font-size: 1.1em;"> <a
+                    style="display:flex; margin-right:1em;color:#9b9b9b;font-size: 1.1em;"> Weekdays:</a> <span> 08:00am -
+                    08:00pm </span> </li>
+                <li style="display:flex; color:#9b9b9b;font-size: 1.1em;"> <a
+                    style="display:flex; margin-right:1em;color:#9b9b9b;font-size: 1.1em;"> Weekends:</a> <span> 10:00am -
+                    06:00pm</span> </li>
+              </ul>
+            </div>
+    
+            <div class="container socialMediaFooter">
+              <p class="share"> Get social </p>
+              <ul class="socialMedia " style="color:white !important;">
+                <li> <a>
+                    <iconify-icon icon="eva:facebook-fill">
+                  </a> </li>
+                <li> <a>
+                    <iconify-icon icon="mdi:twitter"></iconify-icon>
+                  </a> </li>
+                <li> <a>
+                    <iconify-icon icon="typcn:social-instagram"></iconify-icon>
+                  </a> </li>
+                <li> <a>
+                    <iconify-icon icon="mdi:google-plus"></iconify-icon>
+                  </a> </li>
+              </ul>
+            </div>
           </div>
-          <div>
+          <div class="divContacts">
             <h4> Contacts</h4>
             <ul>
-              <li> <a href="#">523 Sylvan Ave, 5th Floor<br>Mountain View, CA 94041 USA</a></li>
-              <li><a href="#">+1 (844) 123 456 78</a></li>
-              <li><a href="#">info@demolink.org</a></li>
+              <li>
+                <iconify-icon style="color: #92c5d9; margin-right:0.5em;" icon="mdi:location"></iconify-icon> <span>523
+                  Sylvan Ave, 5th Floor Mountain View, CA 94041 USA </span>
+              </li>
+              <li>
+                <iconify-icon style="color: #92c5d9;margin-right:0.5em;" icon="ic:baseline-phone"></iconify-icon> <span>+1
+                  (844) 123 456 78</span>
+              </li>
+              <li>
+                <iconify-icon style="color: #92c5d9;margin-right:0.5em;" icon="material-symbols:mail-outline">
+                </iconify-icon><span>info@demolink.org</span>
+              </li>
             </ul>
           </div>
-          <div>
+          <div class="divNewsletter">
+    
             <h4> Newsletter</h4>
-            <p> Subscribe to our newsletter to receive weekly news, updates, special offers, and exclusive discounts.
-            </p>
-            <form>
-              <label for="email">Enter your email:</label>
-              <input type="email" id="email" name="email">
-              <button>icon </button>
+    
+            <p> Subscribe to our newsletter to receive weekly news, updates, special offers, and exclusive discounts.</p>
+    
+    
+            <form style="display:flex;"">
+               
+                  <label>Enter your e-mail</label>
+                  <input type=" text" id="firstName" name="firstName">
+              <button>
+                <iconify-icon icon="teenyicons:send-outline"></iconify-icon>
+              </button>
+    
             </form>
+    
           </div>
         </div>
       </section>
-
+    
       <section class="footer-panel">
         <p> © 2023 Sofa. All rights reserved</p>
         <div>
@@ -312,9 +355,10 @@
           <img src="assets/img/payment-3-62x17.png" alt="" width="62" height="17">
         </div>
         <a href="privacy-policy.html">Privacy Policy</a>
-
+    
       </section>
-    </footer>
-</body>
-
-</html>
+      </footer>
+      </main>
+    </body>
+    
+    </html>
