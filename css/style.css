@@ -1423,10 +1423,7 @@ width:80%;
 .tagsh6 {
   
   text-align: left;
-  color: #b9b9b9;
-  font-weight: 600;
   text-transform: uppercase;
-  padding: 10;
   
 }
 .formBlogPost {
@@ -2040,12 +2037,4 @@ th {
 }
 
 
-.tagsh6 {
-  display: inline-block;
-  padding: 15%;
-  text-align: left;
-  color: #b9b9b9;
-  font-weight: 600;
-  text-transform: uppercase;
 
-} */
