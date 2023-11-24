@@ -57,8 +57,6 @@ header {
     z-index: 1080; */
 
 
-
-
 }
 
 .navbar {
@@ -1705,24 +1703,23 @@ text-align: left;
 }
 .table td{
   font-size: 1.5em;
-  font-weight: 400;
   letter-spacing: .05em;
+  text-align: left;
+  color: #151515;
+font-weight: 600;
 }
 
 thead {
- 
-  text-align: left;
-  margin: 1.5em;
-
-  font-weight: 500;
-    color: #777777;
+  text-align: left; 
 }
 
 th {
   font-size: 1.5em;
   padding-top: 21px;
   padding-bottom: 21px;
-  border-bottom: 2px solid #e1e1e1;
+  font-weight: 500;
+    color: #777777;
+    border-bottom: 2px solid #e1e1e1;
 
 }
 
@@ -1997,7 +1994,8 @@ th {
   width: 32%;
   background: #f9faf9;
   margin-bottom: 1em;
-
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 .articlesGridBlogDiv p {
@@ -2024,3 +2022,9 @@ th {
   margin-top:5em;
 
 }
+.paginas{
+  display: flex;
+  align-items: center;
+}
+
+
