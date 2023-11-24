@@ -2030,11 +2030,16 @@ th {
   display: flex;
 }
 
-
+.articlesBlogPost h6{
+  font-size: 16px;
+  text-align: left;
+  margin-left: 6em;
+  margin-top: 3em;
+}
 .articlesBlogPostDiv article {
   width: 48%;
   background: #f9faf9;
-  margin-bottom: 1em;
+  
 
 }
 .articlesBlogPostDiv {
@@ -2044,7 +2049,7 @@ th {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
-  margin-top:5em;
+  
 
 }
 .articlesGridBlog {
